@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot Demo - Chat</title>
+    <style>
+        #chat-container {
+            height: 400px;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .message {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chatbot</h1>
+    <div id="chat-container">
+        {% for message in messages %}
+        <div class="message">
+            <p>{{ message['sender'] }}: {{ message['content'] }}</p>
+        </div>
+        {% endfor %}
+    </div>
+    <form action="/chatbot" method="post">
+        <input type="text" name="user_input" placeholder="Enter your message">
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
