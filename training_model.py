@@ -85,13 +85,6 @@ sgd = SGD(learning_rate=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss="categorical_crossentropy", optimizer=sgd, metrics=["accuracy"])
 
 HIST = model.fit(
-    np.array(train_x), np.array(train_y), epochs=500, batch_size=5, verbose=1
+    np.array(train_x), np.array(train_y), epochs=1000, batch_size=5, verbose=1
 )
 model.save("intent_classification.h5", HIST)
-
-
-# def exp_data(self, words, ignore_words, classes, diseases):
-#     self._words = words
-#     self._ignore_words = ignore_words
-#     self._classes = classes
-#     self._diseases = diseases
