@@ -1,7 +1,7 @@
 {
     "responses": [
         {
-            "disease": "tuberculosis",
+            "tag": "tuberculosis",
             "symptoms": [],
             "causes": [],
             "risk factors": [],
@@ -11,10 +11,11 @@
             "prevention": [],
             "prognosis": [],
             "epidemiology": [],
-            "current research": []
+            "current research": [],
+            "none": []
         },
         {
-            "disease": "lung cancer",
+            "tag": "lung cancer",
             "symptoms": [],
             "causes": [],
             "risk factors": [],
@@ -24,7 +25,8 @@
             "prevention": [],
             "prognosis": [],
             "epidemiology": [],
-            "current research": []
+            "current research": [],
+            "none": []
         }
     ]
 }

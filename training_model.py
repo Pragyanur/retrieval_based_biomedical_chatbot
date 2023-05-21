@@ -9,33 +9,6 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout
 from keras.optimizers import SGD
 
-nlp = spacy.load("en_core_sci_sm")
-
-text = """Myeloid derived suppressor cells (MDSC) are immature 
-myeloid cells with immunosuppressive activity. Lung cancer
-They accumulate in tumor-bearing mice and humans 
-with different types of cancer, including hepatocellular 
-carcinoma (HCC)."""
-di = """tuberculosis lung cancer"""
-
-doc = nlp(text)
-list_of_disease = nlp(di)
-
-entities = list(ent.text for ent in doc.ents)
-disease_list = list(ent.text for ent in list_of_disease.ents)
-
-print(entities)
-print(disease_list)
-
-def check_disease(msg):
-    doc = nlp(msg)
-    entities = list(ent.text for ent in doc.ents)
-    for e in entities:
-        if e in list_of_disease:
-            return e
-
-# if e not in list_of_diseases
-# response tag "none"
 
 lemmatizer = WordNetLemmatizer()
 
@@ -49,10 +22,9 @@ file = open("responses.json", "r", encoding = "UTF-8")
 data = json.load(file)
 
 for disease in data["responses"]:
-    d = data["disease"]
-    diseases.extend(d)
+    d = disease["tag"]
+    diseases.append(d)
 
-print(diseases)
 
 file = open("intents.json", "r", encoding = "UTF-8")
 intents = json.load(file)
@@ -74,7 +46,7 @@ diseases = sorted(list(set(diseases)))
 
 
 print(len(documents), " documents")
-print("Documents: ", documents)
+# print("Documents: ", documents)
 print(len(words), "unique lemmatized words", words)
 print("diseases: ", diseases)
 print("classes: ", classes)
@@ -95,10 +67,8 @@ for doc in documents:
             bag.append(1)
         else:
             bag.append(0)
-
     output_row = list(output_empty)
     output_row[classes.index(doc[1])] = 1
-
     training.append([bag, output_row])
 
 random.shuffle(training)
@@ -115,5 +85,5 @@ model.add(Dense(len(train_y[0]), activation="softmax"))
 sgd=SGD(learning_rate=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss="categorical_crossentropy", optimizer=sgd, metrics=["accuracy"])
 
-HIST = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
+HIST = model.fit(np.array(train_x), np.array(train_y), epochs=500, batch_size=5, verbose=1)
 model.save("intent_classification.h5", HIST)
