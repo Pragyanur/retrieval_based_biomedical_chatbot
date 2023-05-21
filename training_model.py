@@ -90,7 +90,6 @@ HIST = model.fit(
 model.save("intent_classification.h5", HIST)
 
 
-
 # def exp_data(self, words, ignore_words, classes, diseases):
 #     self._words = words
 #     self._ignore_words = ignore_words
