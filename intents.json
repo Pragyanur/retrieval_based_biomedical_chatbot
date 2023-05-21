@@ -1,0 +1,121 @@
+{
+    "intents": [
+        {
+            "tag": "symptoms",
+            "patterns": [
+                "how do i know if i have",
+                "do i have",
+                "what are the symptoms of",
+                "when can i say if i have",
+                "symptoms related to",
+                "what determines if i have",
+                "i am not sure if i have",
+                "what are the signs of having"
+            ]
+        },
+        {
+            "tag": "causes",
+            "patterns": [
+                "what are the causes of",
+                "how come i have",
+                "what might have caused ? in me",
+                "how do i have",
+                "causes",
+                "how did i get it",
+                "what could cause",
+                "what can cause",
+                "cause"
+            ]
+        },
+        {
+            "tag": "risk factors",
+            "patterns": [
+                "what might increase the chances of",
+                "what are the risk factors related to",
+                "how might it develop further",
+                "can it develop further",
+                "what things can increase the chances of"
+            ]
+        },
+        {
+            "tag": "diagnosis",
+            "patterns": [
+                "diagnosis of",
+                "how to diagnose i have",
+                "how do i confirm if i have this disease",
+                "I need to identify the presence of cancer cells in my body"
+            ]
+        },
+        {
+            "tag": "complications",
+            "patterns": [
+                "what happens if i have",
+                "adverse effects of having",
+                "what will happen to me",
+                "what are the complications related to",
+                "what are the complications of"
+            ]
+        },
+        {
+            "tag": "treatment",
+            "patterns": [
+                "treatment of",
+                "how to cure",
+                "how to treat",
+                "how to get rid of this disease",
+                "how did i get rid of",
+                "i want to be healthy again",
+                "medications for",
+                "how do i get better",
+                "how to get well from"
+            ]
+        },
+        {
+            "tag": "prevention",
+            "patterns": [
+                "preventive measures for",
+                "how do i prevent",
+                "how to stay away from",
+                "how do i prevent this disease from harming my body",
+                "i don't want to have"
+            ]
+        },
+        {
+            "tag": "prognosis",
+            "patterns": [
+                "prognosis of",
+                "The likely outcome or course of the disease, including potential outcomes for different stages or types",
+                "what happens at the end",
+                "what happens to a person with afterwards"
+            ]
+        },
+        {
+            "tag": "epidemiology",
+            "patterns": [
+                "epidemiology of",
+                "Information about the disease's prevalence, distribution, and patterns within a population",
+                "how does this affect a population or people"
+            ]
+        },
+        {
+            "tag": "current research",
+            "patterns": [
+                "new updates on this disease",
+                "what is happening in the world",
+                "research about",
+                "publications related to",
+                "current affairs on",
+                "latest information"
+            ]
+        },
+        {
+            "tag": "none",
+            "patterns": [
+                "can you cure my illness",
+                "i do not understand",
+                "how else can you help me",
+                "how can you help me?"
+            ]
+        }
+    ]
+}

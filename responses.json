@@ -1,0 +1,30 @@
+{
+    "responses": [
+        {
+            "disease": "tuberculosis",
+            "symptoms": [],
+            "causes": [],
+            "risk factors": [],
+            "diagnosis": [],
+            "complications": [],
+            "treatment": [],
+            "prevention": [],
+            "prognosis": [],
+            "epidemiology": [],
+            "current research": []
+        },
+        {
+            "disease": "lung cancer",
+            "symptoms": [],
+            "causes": [],
+            "risk factors": [],
+            "diagnosis": [],
+            "complications": [],
+            "treatment": [],
+            "prevention": [],
+            "prognosis": [],
+            "epidemiology": [],
+            "current research": []
+        }
+    ]
+}
