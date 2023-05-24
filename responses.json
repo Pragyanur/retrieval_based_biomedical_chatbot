@@ -7,12 +7,12 @@
             "risk factors": [],
             "diagnosis": [],
             "complications": [],
-            "treatment": [],
+            "treatment": ["No data"],
             "prevention": [],
             "prognosis": [],
             "epidemiology": [],
             "current research": [],
-            "none": []
+            "none": ["Sorry, I do not understand","What you are looking for is beyond my capabilites", "I am just a simple chatbot"]
         },
         {
             "tag": "lung cancer",
@@ -26,7 +26,11 @@
             "prognosis": [],
             "epidemiology": [],
             "current research": [],
-            "none": []
+            "none": ["Sorry, I do not understand","What you are looking for is beyond my capabilites", "I am just a simple chatbot"]
+        },
+        {
+            "tag": "none",
+            "limit_reached": ["Sorry, I don't have any knowledge about that disease","No record of this disease in my database", "You might want to go to a specialist for this disease"]
         }
     ]
 }

@@ -33,8 +33,8 @@ def predict_disease(msg):
             return selected_disease
 
 
-def response(msg):
-    retrieved_res = "Sorry! I don't understand"
+def response(msg): # use this function to retrieve response for the user_input
+    retrieved_res = "Sorry! I don't understand" # default if all else fails
 
     msg_words = nltk.word_tokenize(msg)
     msg_words = [lemmatizer.lemmatize(w) for w in msg_words]
@@ -45,7 +45,7 @@ def response(msg):
         else:
             bag.append(0)
 
-    disease = predict_disease(msg)
+    selected_disease = predict_disease(msg)
 
     # Using the model
     # To find the class with highest probability, sorting is done
@@ -68,9 +68,13 @@ def response(msg):
     # [0] means the first element in the list and 
     # ["intent"] gives the value associated with the key "intent"
     # returns intent with highest probability
-    for d in responses["intents"]:
-        if d["tag"] == intent_tag:
-            retrieved_res = random.choice(list(d[intent_tag]))
+    for each_disease in responses["responses"]:
+        if each_disease["tag"] == selected_disease:
+            retrieved_res = random.choice(list(each_disease[intent_tag]))
             break
+        else:
+            retrieved_res = random.choice(list(each_disease["limit_reached"]))
     return retrieved_res
 
+print("User: treatment of tuberculosis")
+print("Bot: ", response("treatment of tuberculosis"))
