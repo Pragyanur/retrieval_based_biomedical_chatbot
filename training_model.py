@@ -54,6 +54,7 @@ print("")
 pickle.dump(words, open("pickles/words.pkl", "wb"))
 pickle.dump(diseases, open("pickles/diseases.pkl", "wb"))
 pickle.dump(classes, open("pickles/classes.pkl", "wb"))
+# pickle.dump(ignore_words, open("pickles/ignore_words.pkl", "wb"))
 
 training = []
 output_empty = [0] * len(classes)
