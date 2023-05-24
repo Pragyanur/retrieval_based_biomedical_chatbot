@@ -44,11 +44,29 @@ def response(msg):
             bag.append(0)
 
     disease = predict_disease(msg)
-    prediction = model.predict(np.array([bag]))
+
+    # Using the model
+    # To find the class with highest probability, sorting is done
+    prediction = model.predict(np.array([bag]))             
+    # >>> prediction = [a1 a2 a3 a4 a5 a6....an]
     error_threshold = 0.25
     results = [[i, r] for i, r in enumerate(prediction) if r > error_threshold]
+    # >>> results = [[0, p0], [1, p1], ... [n, p(n-1)]]
+    
     results.sort(key=lambda x: x[1], reverse = True)
+    # "key=lambda x: x[1]" is a lambda function
+    # key -> [lambda[for all tuples 'x' select it's second element]]
+    # reverse the order => descending order
+
     return_list = []
     for r in results:
-        return_list.append({"intent": classes[r[0]]})
+        return_list.append({"intent": classes[r[0]], "probability": str(r[1])})
+        # Hash table or dictionary with key: value pairs "intent": "tag"
+    intent_tag = return_list[0]["intent"]
+    # [0] means the first element in the list and 
+    # ["intent"] gives the value associated with the key "intent"
+    # returns intent with highest probability
+    for d in responses["intents"]:
+        if d["tag"] == intent_tag:
+            result = random.choice(list(d[intent_tag]))
 
