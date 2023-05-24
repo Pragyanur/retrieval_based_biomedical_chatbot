@@ -34,6 +34,8 @@ def predict_disease(msg):
 
 
 def response(msg):
+    retrieved_res = "Sorry! I don't understand"
+
     msg_words = nltk.word_tokenize(msg)
     msg_words = [lemmatizer.lemmatize(w) for w in msg_words]
     bag = []
@@ -68,5 +70,7 @@ def response(msg):
     # returns intent with highest probability
     for d in responses["intents"]:
         if d["tag"] == intent_tag:
-            result = random.choice(list(d[intent_tag]))
+            retrieved_res = random.choice(list(d[intent_tag]))
+            break
+    return retrieved_res
 
