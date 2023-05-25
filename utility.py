@@ -8,6 +8,8 @@ def view_diseases():
     list = pickle.load(open("pickles/diseases.pkl", "rb"))
     print(list)
 
+view_diseases()
+
 def view_intents():
     list = pickle.load(open("pickles/classes.pkl", "rb"))
     print(list)

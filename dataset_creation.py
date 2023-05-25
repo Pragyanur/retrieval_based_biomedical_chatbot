@@ -8,7 +8,7 @@ txt_responses = open("responses.txt", "r", encoding="UTF-8").read()
 sections = txt_responses.split("\n\n")
 
 
-with open("responses.json", "r") as file:
+with open("response.json", "r") as file:
     responses = json.load(file)
 
 
@@ -23,9 +23,13 @@ intents = pickle.load(open("pickles/classes.pkl", "rb"))
 #     if t["tag"] == d:
 #         t[tag] = s
 #         break
-count = 0
+
+with open("responses.json", "w") as x:
+    json.dump(responses, x, indent=3)
+
+count = 25
 for item in responses["responses"]:
-    if item["tag"] == "tuberculosis":
+    if item["tag"] == "malaria":
         for w in intents:
             if w == "none":
                 continue

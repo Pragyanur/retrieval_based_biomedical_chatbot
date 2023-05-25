@@ -1,46 +1,114 @@
 {
-   "responses": [
-       {
-           "tag": "lung cancer",
-           "causes": [],
-           "complications": [],
-           "current research": [],
-           "diagnosis": [],
-           "epidemiology": [],
-           "none": ["Sorry, I do not understand","What you are looking for is beyond my capabilites", "I am just a simple chatbot"],
-           "prevention": [],
-           "prognosis": [],
-           "risk factors": [],
-           "symptoms": ["no data", "nothing updated here"],
-           "treatment": ["No data"]
-       },
-       {
-           "tag": "tuberculosis",
-           "causes": [],
-           "complications": [],
-           "current research": [],
-           "diagnosis": [],
-           "epidemiology": [],
-           "none": ["Sorry, I do not understand","What you are looking for is beyond my capabilites", "I am just a simple chatbot"],
-           "prevention": [],
-           "prognosis": [],
-           "risk factors": [],
-           "symptoms": ["no data", "nothing updated here"],
-           "treatment": ["No data"]
-       },
-       {
-           "tag": "none",
-           "causes": [],
-           "complications": [],
-           "current research": [],
-           "diagnosis": [],
-           "epidemiology": [],
-           "none": ["Sorry, I don't have any knowledge about that disease","No record of this disease in my database", "You might want to go to a specialist for this disease"],
-           "prevention": [],
-           "prognosis": [],
-           "risk factors": [],
-           "symptoms": [],
-           "treatment": []
-       }
-   ]
+    "responses": [
+        {
+            "tag": "HIV",
+            "causes": [],
+            "complications": [],
+            "current research": [],
+            "diagnosis": [],
+            "epidemiology": [],
+            "none": [
+                "Sorry, I do not understand",
+                "What you are looking for is beyond my capabilites",
+                "I am just a simple chatbot"
+            ],
+            "prevention": [],
+            "prognosis": [],
+            "risk factors": [],
+            "symptoms": [
+                "no data",
+                "nothing updated here"
+            ],
+            "treatment": [
+                "No data"
+            ]
+        },
+        {
+            "tag": "lung cancer",
+            "causes": [],
+            "complications": [],
+            "current research": [],
+            "diagnosis": [],
+            "epidemiology": [],
+            "none": [
+                "Sorry, I do not understand",
+                "What you are looking for is beyond my capabilites",
+                "I am just a simple chatbot"
+            ],
+            "prevention": [],
+            "prognosis": [],
+            "risk factors": [],
+            "symptoms": [
+                "no data",
+                "nothing updated here"
+            ],
+            "treatment": [
+                "No data"
+            ]
+        },
+        {
+            "tag": "malaria",
+            "causes": [],
+            "complications": [],
+            "current research": [],
+            "diagnosis": [],
+            "epidemiology": [],
+            "none": [
+                "Sorry, I do not understand",
+                "What you are looking for is beyond my capabilites",
+                "I am just a simple chatbot"
+            ],
+            "prevention": [],
+            "prognosis": [],
+            "risk factors": [],
+            "symptoms": [
+                "no data",
+                "nothing updated here"
+            ],
+            "treatment": [
+                "No data"
+            ]
+        },
+        {
+            "tag": "tuberculosis",
+            "causes": [],
+            "complications": [],
+            "current research": [],
+            "diagnosis": [],
+            "epidemiology": [],
+            "none": [
+                "Sorry, I do not understand",
+                "What you are looking for is beyond my capabilites",
+                "I am just a simple chatbot"
+            ],
+            "prevention": [],
+            "prognosis": [],
+            "risk factors": [],
+            "symptoms": [
+                "no data",
+                "nothing updated here"
+            ],
+            "treatment": [
+                "No data"
+            ]
+        },
+        {
+            "tag": "none",
+            "causes": [],
+            "complications": [],
+            "current research": [],
+            "diagnosis": [],
+            "epidemiology": [],
+            "none": [
+                "Sorry, I don't have any knowledge about that disease",
+                "No record of this disease in my database",
+                "You might want to go to a specialist for this disease"
+            ],
+            "prevention": [],
+            "prognosis": [],
+            "risk factors": [],
+            "symptoms": [],
+            "treatment": []
+        }
+    ]
 }

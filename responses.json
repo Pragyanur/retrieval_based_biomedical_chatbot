@@ -40,6 +40,44 @@
             ]
         },
         {
+            "tag": "malaria",
+            "causes": [
+                "Causes:\nMalaria is spread by the bite of an infected female Anopheles mosquito. When the mosquito bites a person, it injects the parasite into the bloodstream. The parasite then travels to the liver, where it matures and infects red blood cells."
+            ],
+            "complications": [
+                "Complications:\nMalaria can cause a number of complications, including: Severe anemia, Seizures, Coma, Death"
+            ],
+            "current research": [
+                "There is a lot of current research being done on malaria. Some of the areas of research include:\nDeveloping new drugs and vaccines\nImproving diagnostic tests\nUnderstanding the biology of the parasite\nDeveloping new ways to prevent malaria transmission"
+            ],
+            "diagnosis": [
+                "Malaria is diagnosed by a blood test. The blood test can detect the presence of the parasite in the blood."
+            ],
+            "epidemiology": [
+                "Malaria is a major public health problem in many parts of the world. According to the World Health Organization, there were an estimated 229 million cases of malaria in 2020, and 409,000 people died from the disease. The majority of malaria cases and deaths occur in Africa."
+            ],
+            "none": [
+                "Sorry, I do not understand",
+                "What you are looking for is beyond my capabilites",
+                "I am just a simple chatbot"
+            ],
+            "prevention": [
+                "There are a number of ways to prevent malaria, including:\nUsing insect repellent\nSleeping under a mosquito net treated with insecticide\nWearing long sleeves and pants when outdoors\nAvoiding travel to areas where malaria is common"
+            ],
+            "prognosis": [
+                "The prognosis for malaria depends on the type of parasite, the severity of the infection, and the person's overall health. In general, people with severe malaria are more likely to die from the disease."
+            ],
+            "risk factors": [
+                "The risk factors for malaria include:\nLiving in or traveling to an area where malaria is common\nBeing bitten by an infected mosquito\nHaving a weakened immune system"
+            ],
+            "symptoms": [
+                "The symptoms of malaria usually start 10-15 days after being bitten by an infected mosquito. The symptoms can vary depending on the type of parasite, but they may include:\nFever\nChills\nSweats\nHeadache\nMuscle aches\nFatigue\nNausea and vomiting\nDiarrhea\nCough"
+            ],
+            "treatment": [
+                "Malaria is treated with antimalarial drugs. The type of drug used depends on the type of parasite."
+            ]
+        },
+        {
             "tag": "tuberculosis",
             "causes": [
                 "Causes of Tuberculosis:\n- Tuberculosis is caused by the bacterium Mycobacterium tuberculosis. It spreads through the air when an infected person coughs, sneezes, or speaks, and others inhale the bacteria."
