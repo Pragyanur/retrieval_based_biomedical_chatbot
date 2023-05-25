@@ -89,3 +89,5 @@ HIST = model.fit(
     np.array(train_x), np.array(train_y), epochs=1000, batch_size=5, verbose=1
 )
 model.save("intent_classification.h5", HIST)
+
+print("model trained and saved")

@@ -34,16 +34,19 @@ def predict_disease(msg, prev_disease):
             prev_disease = e
             return e
         else:
-            return prev_disease
+            continue
+    return prev_disease
 
 
-def response(msg):  # use this function to retrieve response for the user_input
+def response(msg, dis):  # use this function to retrieve response for the user_input
     retrieved_res = "Sorry! I don't understand"  # default if all else fails
+    predicted_disease = predict_disease(msg, dis)
 
     msg_words = nltk.word_tokenize(msg)
     msg_words = [
         lemmatizer.lemmatize(w.lower()) for w in msg_words if w not in ignore_words
     ]
+    
     bag = []
     for word in words:
         if word in msg_words:
@@ -51,11 +54,9 @@ def response(msg):  # use this function to retrieve response for the user_input
         else:
             bag.append(0)
 
-    predicted_disease = predict_disease(msg, selected_disease)
-
     # Using the model
     # To find the class with highest probability, sorting is done
-    prediction = model.predict(np.array([bag]))[0]
+    prediction = model.predict(np.array([bag]), verbose = False)[0]
     # >>> prediction = [a1 a2 a3 a4 a5 a6....an]----------------------------to_list-
     #                                                                               |
     error_threshold = 0.25  #                                                       v
@@ -81,11 +82,14 @@ def response(msg):  # use this function to retrieve response for the user_input
     # returns intent with highest probability
 
     all_disease = responses["responses"]
+
+    print("[intent: ", intent_tag, " | disease: ", predicted_disease, "]")
     # if "tag" matches the predicted disease then choose any of the random responses
     for item in all_disease:
         if item["tag"] == predicted_disease:
             retrieved_res = random.choice(item[intent_tag])
-            break
-        else:
-            retrieved_res = random.choice(item["none"])
-    return retrieved_res
+            return retrieved_res
+
+    #     else:
+    #         if item["tag"] == "no record":
+    #             retrieved_res = random.choice(item["none"])
