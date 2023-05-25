@@ -19,11 +19,7 @@ words = pickle.load(open("pickles/words.pkl", "rb"))
 diseases = pickle.load(open("pickles/diseases.pkl", "rb"))
 classes = pickle.load(open("pickles/classes.pkl", "rb"))
 # ignore_words = pickle.load(open("pickles/ignore_words.pkl", "rb"))
-ignore_words = ["?", "!", ".", ","]
-
-
-selected_disease = "none"
-# this will work as a memory to keep the last mentioned disease selected
+ignore_words = ["?", "!", "XXXX"]
 
 
 def predict_disease(msg, prev_disease):
@@ -46,7 +42,7 @@ def response(msg, dis):  # use this function to retrieve response for the user_i
     msg_words = [
         lemmatizer.lemmatize(w.lower()) for w in msg_words if w not in ignore_words
     ]
-    
+
     bag = []
     for word in words:
         if word in msg_words:
@@ -56,7 +52,7 @@ def response(msg, dis):  # use this function to retrieve response for the user_i
 
     # Using the model
     # To find the class with highest probability, sorting is done
-    prediction = model.predict(np.array([bag]), verbose = False)[0]
+    prediction = model.predict(np.array([bag]), verbose=False)[0]
     # >>> prediction = [a1 a2 a3 a4 a5 a6....an]----------------------------to_list-
     #                                                                               |
     error_threshold = 0.25  #                                                       v
@@ -83,13 +79,9 @@ def response(msg, dis):  # use this function to retrieve response for the user_i
 
     all_disease = responses["responses"]
 
-    print("[intent: ", intent_tag, " | disease: ", predicted_disease, "]")
+    print("[looking for: ", intent_tag, " | disease: ", predicted_disease, "]")
     # if "tag" matches the predicted disease then choose any of the random responses
     for item in all_disease:
         if item["tag"] == predicted_disease:
             retrieved_res = random.choice(item[intent_tag])
             return retrieved_res
-
-    #     else:
-    #         if item["tag"] == "no record":
-    #             retrieved_res = random.choice(item["none"])

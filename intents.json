@@ -3,109 +3,111 @@
         {
             "tag": "symptoms",
             "patterns": [
-                "how do i know if i have",
-                "do i have",
-                "what are the symptoms of",
-                "when can i say if i have",
-                "symptoms related to",
-                "what determines if i have",
-                "i am not sure if i have",
-                "what are the signs of having"
+                "how do i know if i have XXXX",
+                "do i have XXXX",
+                "what are the symptoms of XXXX",
+                "when can i say if i have XXXX",
+                "symptoms related to XXXX",
+                "what determines if i have XXXX",
+                "i am not sure if i have XXXX",
+                "what are the signs of having XXXX"
             ]
         },
         {
             "tag": "causes",
             "patterns": [
-                "what are the causes of",
-                "how come i have",
-                "what might have caused ? in me",
-                "how do i have",
-                "causes",
-                "how did i get it",
-                "what could cause",
-                "what can cause",
-                "cause"
+                "what are the causes of XXXX",
+                "how come i have XXXX",
+                "what might have caused  XXXX in me",
+                "how do i have XXXX",
+                "XXXX causes",
+                "how did i get it XXXX",
+                "what could cause XXXX",
+                "what can cause XXXX",
+                "cause of XXXX"
             ]
         },
         {
             "tag": "risk factors",
             "patterns": [
-                "what might increase the chances of",
-                "what are the risk factors related to",
-                "how might it develop further",
-                "can it develop further",
-                "what things can increase the chances of"
+                "what might increase the chances of XXXX",
+                "what are the risk factors related to XXXX",
+                "how might it XXXX develop further",
+                "can it XXXX develop further",
+                "what things can increase the chances of XXXX"
             ]
         },
         {
             "tag": "diagnosis",
             "patterns": [
-                "diagnosis of",
-                "how to diagnose i have",
-                "how do i confirm if i have this disease",
-                "I need to identify the presence of cancer cells in my body"
+                "diagnosis of XXXX",
+                "how to diagnose i have XXXX",
+                "how do i confirm if i have XXXX",
+                "I need to identify the presence of XXXX in my body"
             ]
         },
         {
             "tag": "complications",
             "patterns": [
-                "what happens if i have",
-                "adverse effects of having",
+                "what happens if i have XXXX",
+                "adverse effects of having XXXX",
                 "what will happen to me",
-                "what are the complications related to",
-                "what are the complications of"
+                "what are the complications related to XXXX",
+                "what are the complications of XXXX"
             ]
         },
         {
             "tag": "treatment",
             "patterns": [
-                "treatment of",
-                "how to cure",
-                "how to treat",
-                "how to get rid of this disease",
-                "how did i get rid of",
+                "treatment of XXXX",
+                "how to cure XXXX",
+                "how to treat XXXX",
+                "how to get rid of XXXX",
+                "how did i get rid of XXXX",
                 "i want to be healthy again",
-                "medications for",
+                "medications for XXXX",
                 "how do i get better",
-                "how to get well from"
+                "how to get well from XXXX"
             ]
         },
         {
             "tag": "prevention",
             "patterns": [
-                "preventive measures for",
-                "how do i prevent",
-                "how to stay away from",
-                "how do i prevent this disease from harming my body",
-                "i don't want to have"
+                "preventive measures for XXXX",
+                "how do i prevent XXXX",
+                "how to stay away from XXXX",
+                "how do i prevent XXXX from harming my body",
+                "i don't want to have XXXX",
+                "preventions of XXXX",
+                "preventive measures"
             ]
         },
         {
             "tag": "prognosis",
             "patterns": [
-                "prognosis of",
-                "The likely outcome or course of the disease, including potential outcomes for different stages or types",
+                "prognosis of XXXX",
+                "The likely outcome or course of XXXX, including potential outcomes for different stages or types",
                 "what happens at the end",
-                "what happens to a person with afterwards"
+                "what happens to a person with XXXX afterwards"
             ]
         },
         {
             "tag": "epidemiology",
             "patterns": [
-                "epidemiology of",
-                "Information about the disease's prevalence, distribution, and patterns within a population",
+                "epidemiology of XXXX",
+                "Information about XXXX prevalence, distribution, and patterns within a population",
                 "how does this affect a population or people"
             ]
         },
         {
             "tag": "current research",
             "patterns": [
-                "new updates on this disease",
-                "what is happening in the world",
-                "research about",
-                "publications related to",
-                "current affairs on",
-                "latest information"
+                "new updates on XXXX",
+                "what is happening in the world XXXX",
+                "research about XXXX",
+                "publications related to XXXX",
+                "current affairs on XXXX",
+                "latest information XXXX"
             ]
         },
         {

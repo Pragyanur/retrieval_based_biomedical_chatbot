@@ -15,7 +15,7 @@ words = []  # set of words in the dataset intents.json
 diseases = []  # diseases in responses.json
 documents = []  # list(words in pattern, corresponding tag)
 classes = []  # intent classes from intents.json
-ignore_words = ["?", "!", ".", ","]
+ignore_words = ["?", "!", "XXXX"]
 
 file = open("responses.json", "r", encoding="UTF-8")
 data = json.load(file)
@@ -54,7 +54,6 @@ print("")
 pickle.dump(words, open("pickles/words.pkl", "wb"))
 pickle.dump(diseases, open("pickles/diseases.pkl", "wb"))
 pickle.dump(classes, open("pickles/classes.pkl", "wb"))
-# pickle.dump(ignore_words, open("pickles/ignore_words.pkl", "wb"))
 
 training = []
 output_empty = [0] * len(classes)
