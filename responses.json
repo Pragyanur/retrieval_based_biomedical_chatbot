@@ -1,6 +1,24 @@
 {
     "responses": [
         {
+            "tag": "HIV",
+            "causes": ["no data"],
+            "complications": ["no data"],
+            "current research": ["no data"],
+            "diagnosis": ["no data"],
+            "epidemiology": ["no data"],
+            "none": [
+                "Sorry, I do not understand",
+                "What you are looking for is beyond my capabilites",
+                "I am just a simple chatbot"
+            ],
+            "prevention": ["no data"],
+            "prognosis": ["no data"],
+            "risk factors": ["no data"],
+            "symptoms": ["no data"],
+            "treatment": ["no data"]
+        },
+        {
             "tag": "lung cancer",
             "causes": [
                 "The primary cause of lung cancer is cigarette smoking, which accounts for the majority of cases. Other risk factors include exposure to secondhand smoke, radon gas, asbestos, air pollution, certain chemicals (such as arsenic, uranium, and coal products), a family history of lung cancer, and previous radiation therapy to the chest."

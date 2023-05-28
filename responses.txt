@@ -158,3 +158,37 @@ Cough
 
 Treatment:
 Malaria is treated with antimalarial drugs. The type of drug used depends on the type of parasite.
+
+Causes:
+HIV is caused by the human immunodeficiency virus (HIV), which is a virus that attacks the body's immune system. HIV can be spread through contact with blood, semen, vaginal fluids, and breast milk. It cannot be spread through casual contact, such as shaking hands, hugging, or sharing food or drinks.
+
+Complications:
+If HIV is not treated, it can lead to AIDS (acquired immunodeficiency syndrome). AIDS is the most advanced stage of HIV infection. People with AIDS have a severely weakened immune system and are susceptible to a variety of opportunistic infections, which are infections that take advantage of a weakened immune system. Some of the most common opportunistic infections in people with AIDS include pneumonia, tuberculosis, and Kaposi's sarcoma.
+
+Current research:
+There is currently no cure for HIV, but there are effective treatments that can help people with HIV live long, healthy lives. Researchers are working on developing a cure for HIV, as well as on ways to prevent the spread of the virus.
+
+Diagnosis:
+There are a number of tests that can be used to diagnose HIV. The most common test is the ELISA test, which is a blood test that looks for antibodies to HIV. If the ELISA test is positive, it is usually followed by a confirmatory test, such as the Western blot test.
+
+Epidemiology:
+In 2020, there were an estimated 38 million people living with HIV worldwide. Of these, 25.4 million were receiving antiretroviral therapy (ART). ART can help people with HIV live long, healthy lives, but it cannot cure the virus.
+
+Prevention:
+There are a number of ways to prevent the spread of HIV. The most effective way to prevent HIV is to abstain from sex or to have sex with a partner who is HIV-negative and who is not taking any medications that suppress their immune system. Other ways to prevent HIV include using condoms during sex, not sharing needles, and breastfeeding only if you are HIV-negative and your baby is also HIV-negative.
+
+Prognosis:
+The prognosis for people with HIV has improved dramatically in recent years. With early diagnosis and treatment, people with HIV can live long, healthy lives. However, people with HIV who are not treated are at risk of developing AIDS and dying from opportunistic infections.
+
+Risk factors:
+The main risk factors for HIV infection are:
+Having unprotected sex with an HIV-positive person
+Sharing needles with someone who is HIV-positive
+Being born to an HIV-positive mother
+
+Symptoms:
+The symptoms of HIV infection can vary from person to person. Some people may not have any symptoms at all, while others may experience a flu-like illness within a few weeks of infection. These symptoms may include:
+Fever, Sore throat, Fatigue, Muscle aches, Rash, Diarrhea, Headache, Night sweats
+
+Treatment:
+There is currently no cure for HIV, but there are effective treatments that can help people with HIV live long, healthy lives. These treatments, known as antiretroviral therapy (ART), work by suppressing the virus and preventing it from replicating. ART is not a cure, but it can keep the virus under control and prevent it from progressing to AIDS.\n.ART is a lifelong treatment, but it is very effective. People who take ART as prescribed can reduce their risk of transmitting HIV to others by up to 96%. ART can also help people with HIV live long, healthy lives. Studies have shown that people with HIV who take ART and have an undetectable viral load have the same life expectancy as people who do not have HIV.

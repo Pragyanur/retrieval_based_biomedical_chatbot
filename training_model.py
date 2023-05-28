@@ -15,9 +15,9 @@ words = []  # set of words in the dataset intents.json
 diseases = []  # diseases in responses.json
 documents = []  # list(words in pattern, corresponding tag)
 classes = []  # intent classes from intents.json
-ignore_words = ["?", "!", "XXXX"]
+ignore_words = ["?", "!", "XXXX", ".", ",", "disease"]
 
-file = open("response.json", "r", encoding="UTF-8")
+file = open("responses.json", "r", encoding="UTF-8")
 data = json.load(file)
 
 for disease in data["responses"]:
@@ -45,6 +45,7 @@ diseases = sorted(list(set(diseases)))
 
 
 print(len(documents), " documents")
+
 # print("Documents: ", documents)
 print(len(words), "unique lemmatized words", words)
 print("diseases: ", diseases)
@@ -75,9 +76,9 @@ train_x = np.array([i[0] for i in training])
 train_y = np.array([i[1] for i in training])
 
 model = Sequential()
-model.add(Dense(150, input_shape=(len(train_x[0]),), activation="relu"))
+model.add(Dense(144, input_shape=(len(train_x[0]),), activation="relu"))
 model.add(Dropout(0.5))
-model.add(Dense(75, activation="relu"))
+model.add(Dense(64, activation="relu"))
 model.add(Dropout(0.5))
 model.add(Dense(len(train_y[0]), activation="softmax"))
 

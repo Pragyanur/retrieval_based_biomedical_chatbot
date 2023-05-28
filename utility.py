@@ -8,8 +8,6 @@ def view_diseases():
     list = pickle.load(open("pickles/diseases.pkl", "rb"))
     print(list)
 
-view_diseases()
-
 def view_intents():
     list = pickle.load(open("pickles/classes.pkl", "rb"))
     print(list)
@@ -35,3 +33,11 @@ def check_disease(msg):
         if w in dis:
             return w
     return "none"
+
+def textPP(text): # returns a list of tokenized, lemmatized, lower cased words from text and removes ignore_words
+    words = nltk.word_tokenize(text)
+    words = [
+        lemmatizer.lemmatize(w.lower()) for w in text if w not in ignore_words
+    ]
+    return words
+

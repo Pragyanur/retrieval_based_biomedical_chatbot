@@ -10,7 +10,10 @@
                 "symptoms related to XXXX",
                 "what determines if i have XXXX",
                 "i am not sure if i have XXXX",
-                "what are the signs of having XXXX"
+                "what are the signs of having XXXX",
+                "symptoms of XXXX",
+                "XXXX symptoms",
+                "signs of"
             ]
         },
         {
@@ -18,7 +21,7 @@
             "patterns": [
                 "what are the causes of XXXX",
                 "how come i have XXXX",
-                "what might have caused  XXXX in me",
+                "what might have caused XXXX in me",
                 "how do i have XXXX",
                 "XXXX causes",
                 "how did i get it XXXX",
@@ -34,7 +37,10 @@
                 "what are the risk factors related to XXXX",
                 "how might it XXXX develop further",
                 "can it XXXX develop further",
-                "what things can increase the chances of XXXX"
+                "what things can increase the chances of XXXX",
+                "what things should i avoid to minimize chances of XXXX progressing",
+                "what might minimize its progress",
+                "what might lead to its progress"
             ]
         },
         {
@@ -43,7 +49,9 @@
                 "diagnosis of XXXX",
                 "how to diagnose i have XXXX",
                 "how do i confirm if i have XXXX",
-                "I need to identify the presence of XXXX in my body"
+                "I need to identify the presence of XXXX in my body",
+                "ways to identify if i have XXXX",
+                "how to be sure that i have XXXX"
             ]
         },
         {

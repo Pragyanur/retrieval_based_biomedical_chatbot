@@ -23,20 +23,23 @@ ignore_words = ["?", "!", "XXXX"]
 
 
 def predict_disease(msg, prev_disease):
+    extracted_diseases = []
     doc = nlp(msg)
     entities = list(ent.text for ent in doc.ents)
     for e in entities:
         if e in diseases:
+            extracted_diseases.extend(e)
             prev_disease = e
             return e
-        else:
-            continue
+        else:                                   # debugged
+            prev_disease = "none"
+            # return "none", prev_disease
     return prev_disease
 
+# print(diseases, predict_disease("hello lung cancer", "none"))
 
-def response(msg, dis):  # use this function to retrieve response for the user_input
+def response(msg, disease):  # use this function to retrieve response for the user_input
     retrieved_res = "Sorry! I don't understand"  # default if all else fails
-    predicted_disease = predict_disease(msg, dis)
 
     msg_words = nltk.word_tokenize(msg)
     msg_words = [
@@ -79,9 +82,10 @@ def response(msg, dis):  # use this function to retrieve response for the user_i
 
     all_disease = responses["responses"]
 
-    print("[looking for: ", intent_tag, " | disease: ", predicted_disease, "]")
+    print("[looking for: ", intent_tag, " | disease: ", disease, "]")
+
     # if "tag" matches the predicted disease then choose any of the random responses
     for item in all_disease:
-        if item["tag"] == predicted_disease:
+        if item["tag"] == disease:
             retrieved_res = random.choice(item[intent_tag])
             return retrieved_res
