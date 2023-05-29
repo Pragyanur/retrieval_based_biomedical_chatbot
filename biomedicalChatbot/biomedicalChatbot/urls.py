@@ -16,7 +16,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from chatapp.views import process_text
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
+    path("process/", process_text, name = "process_task"),
 ]

@@ -6,6 +6,7 @@ import nltk
 import numpy as np
 from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
+import utility as u
 
 lemmatizer = WordNetLemmatizer()
 
@@ -89,3 +90,16 @@ def response(msg, disease):  # use this function to retrieve response for the us
         if item["tag"] == disease:
             retrieved_res = random.choice(item[intent_tag])
             return retrieved_res
+    return retrieved_res
+
+def chat():
+    disease = "none"    # to keep track of the accessed disease
+    print("Welcome to biomedical chatbot demo:\n\n------START CONVERSATION------\n")
+    print("Bot: \"You can search for causes, complications, current research, \n\tdiagnosis, epidemiology, prevention, prognosis, risk factors, \n\tsymptoms or treatment of any of the following diseases:\"")
+    u.view_diseases()
+    while True:
+        msg = str(input("User: "))
+        if msg.lower() == "exit" or msg.lower() == "quit":
+            exit()
+        disease = predict_disease(msg, disease)              # predict disease
+        print("Bot: ", response(msg, disease), "\n")         # pass it to response function
