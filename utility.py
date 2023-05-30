@@ -5,12 +5,12 @@ lemmatizer = WordNetLemmatizer()
 ignore_words = ["?", "!", "XXXX", "disease"]
 
 def view_diseases():
-    list = pickle.load(open("pickles/diseases.pkl", "rb"))
-    print(list)
+    li = pickle.load(open("pickles/diseases.pkl", "rb"))
+    print(li)
 
 def view_intents():
-    list = pickle.load(open("pickles/classes.pkl", "rb"))
-    print(list)
+    li = pickle.load(open("pickles/classes.pkl", "rb"))
+    print(li)
 
 def check_intent(msg):
     msg_words = nltk.word_tokenize(msg)
