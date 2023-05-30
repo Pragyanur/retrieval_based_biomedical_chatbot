@@ -21,21 +21,23 @@ words = pickle.load(open("pickles/words.pkl", "rb"))
 diseases = pickle.load(open("pickles/diseases.pkl", "rb"))
 classes = pickle.load(open("pickles/classes.pkl", "rb"))
 # ignore_words = pickle.load(open("pickles/ignore_words.pkl", "rb"))
-ignore_words = ["?", "!", "XXXX"]
+ignore_words = ["?", "!", "XXXX", "disease"]
 
 
 def predict_disease(msg, prev_disease):
-    extracted_diseases = []
+    no_data = False
     doc = nlp(msg)
     entities = list(ent.text for ent in doc.ents)
     for e in entities:
         if e in diseases:
-            extracted_diseases.extend(e)
+            no_data = False
             prev_disease = e
             return e
-        else:                                   # debugged
-            prev_disease = "none"
-            # return "none", prev_disease
+        elif e in classes and prev_disease not in diseases:
+            no_data = True                                   # debugged
+    if no_data:
+        prev_disease = "none"
+        return "none"
     return prev_disease
 
 # print(diseases, predict_disease("hello lung cancer", "none"))
@@ -84,7 +86,7 @@ def bot_response(msg, disease):  # use this function to retrieve response for th
 
     all_disease = responses["responses"]
 
-    print("[looking for: ", intent_tag, " | disease: ", disease, "]")
+    print("[ looking for: ", intent_tag, "| disease: ", disease, "]")
 
     # if "tag" matches the predicted disease then choose any of the random responses
     for item in all_disease:

@@ -2,7 +2,7 @@ import pickle
 import nltk
 from nltk import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
-ignore_words = ["?", "!", ".", ","]
+ignore_words = ["?", "!", "XXXX", "disease"]
 
 def view_diseases():
     list = pickle.load(open("pickles/diseases.pkl", "rb"))

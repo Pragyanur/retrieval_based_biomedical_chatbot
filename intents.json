@@ -8,37 +8,31 @@
                 "do i have XXXX",
                 "how to know if i have XXXX",
                 "what are the symptoms of XXXX",
-                "when can i say if i have XXXX",
                 "symptoms related to XXXX",
-                "what determines if i have XXXX",
-                "i am not sure if i have XXXX",
                 "what are the signs of having XXXX",
                 "symptoms of XXXX",
+                "its symptoms",
                 "XXXX symptoms",
-                "signs of"
+                "signs of XXXX"
             ]
         },
         {
             "tag": "causes",
             "patterns": [
-                "tell me about the causes of XXXX",
                 "what are the causes of XXXX",
                 "how come i have XXXX",
                 "what might have caused XXXX in me",
-                "how do i have XXXX",
                 "XXXX causes",
                 "how did i get it XXXX",
                 "what could cause XXXX",
                 "what can cause XXXX",
-                "cause of XXXX"
+                "cause of XXXX",
+                "causes"
             ]
         },
         {
             "tag": "risk factors",
             "patterns": [
-                "tell me about the risk factors of XXXX",
-                "tell me about the riskfactors of XXXX",
-                "tell me about the risk-factors of XXXX",
                 "what might increase the chances of XXXX",
                 "what are the risk factors related to XXXX",
                 "how might it XXXX develop further",
@@ -46,36 +40,37 @@
                 "what things can increase the chances of XXXX",
                 "what things should i avoid to minimize chances of XXXX progressing",
                 "what might minimize its progress",
-                "what might lead to its progress"
+                "what might lead to its progress",
+                "its risk factors"
             ]
         },
         {
             "tag": "diagnosis",
             "patterns": [
-                "tell me about the diagnosis of XXXX",
                 "diagnosis of XXXX",
+                "i am not sure if i have XXXX",
                 "how to diagnose i have XXXX",
                 "how do i confirm if i have XXXX",
                 "I need to identify the presence of XXXX in my body",
                 "ways to identify if i have XXXX",
-                "how to be sure that i have XXXX"
+                "how to be sure that i have XXXX",
+                "its diagnosis"
             ]
         },
         {
             "tag": "complications",
             "patterns": [
-                "tell me about the complications of XXXX",
                 "what happens if i have XXXX",
                 "adverse effects of having XXXX",
                 "what will happen to me",
                 "what are the complications related to XXXX",
-                "what are the complications of XXXX"
+                "what are the complications of XXXX",
+                "its complications"
             ]
         },
         {
             "tag": "treatment",
             "patterns": [
-                "tell me about the treatment of XXXX",
                 "treatment of XXXX",
                 "how to cure XXXX",
                 "how to treat XXXX",
@@ -84,13 +79,14 @@
                 "i want to be healthy again",
                 "medications for XXXX",
                 "how do i get better",
-                "how to get well from XXXX"
+                "how to get well from XXXX",
+                "its treatment",
+                "any cure for XXXX"
             ]
         },
         {
             "tag": "prevention",
             "patterns": [
-                "tell me about the preventions of XXXX",
                 "how do i prevent getting XXXX",
                 "preventive measures for XXXX",
                 "how do i prevent XXXX",
@@ -98,7 +94,8 @@
                 "how do i prevent XXXX from harming my body",
                 "i don't want to have XXXX",
                 "preventions of XXXX",
-                "preventive measures of"
+                "preventive measures of",
+                "its preventions"
             ]
         },
         {
@@ -124,11 +121,10 @@
             "tag": "current research",
             "patterns": [
                 "tell me about the research of XXXX that is going on",
-                "tell me about the the ongoing research in XXXX",
                 "tell me about the current research on XXXX",
                 "new updates on XXXX",
                 "what is happening in the world XXXX",
-                "research about XXXX",
+                "ongoing research about XXXX",
                 "publications related to XXXX",
                 "current affairs on XXXX",
                 "latest information XXXX"
@@ -142,7 +138,9 @@
                 "how else can you help me",
                 "how can you help me?",
                 "what are my pronouns",
-                "can i get a tattoo"
+                "can i get a tattoo",
+                " ",
+                "good bye cruel world"
             ]
         }
     ]

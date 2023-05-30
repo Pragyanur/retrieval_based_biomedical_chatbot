@@ -15,7 +15,7 @@ words = []  # set of words in the dataset intents.json
 diseases = []  # diseases in responses.json
 documents = []  # list(words in pattern, corresponding tag)
 classes = []  # intent classes from intents.json
-ignore_words = ["?", "!", "XXXX", ".", ",", "disease"]
+ignore_words = ["?", "!", "XXXX", "disease"]
 
 file = open("responses.json", "r", encoding="UTF-8")
 data = json.load(file)
@@ -76,7 +76,7 @@ train_x = np.array([i[0] for i in training])
 train_y = np.array([i[1] for i in training])
 
 model = Sequential()
-model.add(Dense(150, input_shape=(len(train_x[0]),), activation="relu"))
+model.add(Dense(128, input_shape=(len(train_x[0]),), activation="relu"))
 model.add(Dropout(0.5))
 model.add(Dense(64, activation="relu"))
 model.add(Dropout(0.5))
@@ -86,7 +86,7 @@ sgd = SGD(learning_rate=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss="categorical_crossentropy", optimizer=sgd, metrics=["accuracy"])
 
 HIST = model.fit(
-    np.array(train_x), np.array(train_y), epochs=1000, batch_size=5, verbose=1
+    np.array(train_x), np.array(train_y), epochs=500, batch_size=5, verbose=1
 )
 model.save("intent_classification.h5", HIST)
 
