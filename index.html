@@ -26,14 +26,17 @@
                     console.error('AJAX request failed:', error);
                 }
             });
-
             // Update the conversation display
             updateConversation(inputText, outputText);
         }
 
+        function reset() {
+            var conversation = document.getElementById('conversation');
+            conversation.innerHTML = '';
+        }
+
         function updateConversation(inputText, outputText) {
             var conversation = document.getElementById('conversation');
-
             var userMessage = document.createElement('div');
             userMessage.className = 'message user-message';
             userMessage.innerHTML = '<span class="message-text">User: </span><span>' + inputText + '</span>';
@@ -54,7 +57,8 @@
 
     <form>
         <input type="text" id="input-text" placeholder="Enter your message">
-        <button type="button" onclick="submitForm()">Submit</button>
+        <button type="button" onclick="submitForm()">SEND</button>
+        <button type="reset" onclick="reset()">RESET CHAT</button>
     </form>
 </body>
 

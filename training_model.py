@@ -76,7 +76,7 @@ train_x = np.array([i[0] for i in training])
 train_y = np.array([i[1] for i in training])
 
 model = Sequential()
-model.add(Dense(144, input_shape=(len(train_x[0]),), activation="relu"))
+model.add(Dense(150, input_shape=(len(train_x[0]),), activation="relu"))
 model.add(Dropout(0.5))
 model.add(Dense(64, activation="relu"))
 model.add(Dropout(0.5))

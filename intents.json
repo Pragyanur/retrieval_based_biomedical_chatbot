@@ -3,8 +3,10 @@
         {
             "tag": "symptoms",
             "patterns": [
+                "tell me about the symptoms of XXXX",
                 "how do i know if i have XXXX",
                 "do i have XXXX",
+                "how to know if i have XXXX",
                 "what are the symptoms of XXXX",
                 "when can i say if i have XXXX",
                 "symptoms related to XXXX",
@@ -19,6 +21,7 @@
         {
             "tag": "causes",
             "patterns": [
+                "tell me about the causes of XXXX",
                 "what are the causes of XXXX",
                 "how come i have XXXX",
                 "what might have caused XXXX in me",
@@ -33,6 +36,9 @@
         {
             "tag": "risk factors",
             "patterns": [
+                "tell me about the risk factors of XXXX",
+                "tell me about the riskfactors of XXXX",
+                "tell me about the risk-factors of XXXX",
                 "what might increase the chances of XXXX",
                 "what are the risk factors related to XXXX",
                 "how might it XXXX develop further",
@@ -46,6 +52,7 @@
         {
             "tag": "diagnosis",
             "patterns": [
+                "tell me about the diagnosis of XXXX",
                 "diagnosis of XXXX",
                 "how to diagnose i have XXXX",
                 "how do i confirm if i have XXXX",
@@ -57,6 +64,7 @@
         {
             "tag": "complications",
             "patterns": [
+                "tell me about the complications of XXXX",
                 "what happens if i have XXXX",
                 "adverse effects of having XXXX",
                 "what will happen to me",
@@ -67,6 +75,7 @@
         {
             "tag": "treatment",
             "patterns": [
+                "tell me about the treatment of XXXX",
                 "treatment of XXXX",
                 "how to cure XXXX",
                 "how to treat XXXX",
@@ -81,19 +90,22 @@
         {
             "tag": "prevention",
             "patterns": [
+                "tell me about the preventions of XXXX",
+                "how do i prevent getting XXXX",
                 "preventive measures for XXXX",
                 "how do i prevent XXXX",
                 "how to stay away from XXXX",
                 "how do i prevent XXXX from harming my body",
                 "i don't want to have XXXX",
                 "preventions of XXXX",
-                "preventive measures"
+                "preventive measures of"
             ]
         },
         {
             "tag": "prognosis",
             "patterns": [
                 "prognosis of XXXX",
+                "tell me about the prognosis of XXXX",
                 "The likely outcome or course of XXXX, including potential outcomes for different stages or types",
                 "what happens at the end",
                 "what happens to a person with XXXX afterwards"
@@ -102,6 +114,7 @@
         {
             "tag": "epidemiology",
             "patterns": [
+                "tell me about the epidemiology of XXXX",
                 "epidemiology of XXXX",
                 "Information about XXXX prevalence, distribution, and patterns within a population",
                 "how does this affect a population or people"
@@ -110,6 +123,9 @@
         {
             "tag": "current research",
             "patterns": [
+                "tell me about the research of XXXX that is going on",
+                "tell me about the the ongoing research in XXXX",
+                "tell me about the current research on XXXX",
                 "new updates on XXXX",
                 "what is happening in the world XXXX",
                 "research about XXXX",

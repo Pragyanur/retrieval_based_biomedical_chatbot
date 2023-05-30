@@ -8,6 +8,7 @@ from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
 import utility as u
 
+
 lemmatizer = WordNetLemmatizer()
 
 nlp = spacy.load("en_core_sci_sm")
@@ -39,7 +40,7 @@ def predict_disease(msg, prev_disease):
 
 # print(diseases, predict_disease("hello lung cancer", "none"))
 
-def response(msg, disease):  # use this function to retrieve response for the user_input
+def bot_response(msg, disease):  # use this function to retrieve response for the user_input
     retrieved_res = "Sorry! I don't understand"  # default if all else fails
 
     msg_words = nltk.word_tokenize(msg)
@@ -102,4 +103,6 @@ def chat():
         if msg.lower() == "exit" or msg.lower() == "quit":
             exit()
         disease = predict_disease(msg, disease)              # predict disease
-        print("Bot: ", response(msg, disease), "\n")         # pass it to response function
+        print("Bot: ", bot_response(msg, disease), "\n")         # pass it to response function
+
+chat()
