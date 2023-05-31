@@ -2,113 +2,201 @@
     "responses": [
         {
             "tag": "HIV",
-            "causes": [],
-            "complications": [],
-            "current research": [],
-            "diagnosis": [],
-            "epidemiology": [],
-            "none": [
-                "Sorry, I do not understand",
-                "What you are looking for is beyond my capabilites",
-                "I am just a simple chatbot"
+            "causes": [
+                "HIV is caused by the human immunodeficiency virus.",
+                "It is primarily transmitted through unprotected sexual intercourse, sharing needles, or from mother to child during childbirth or breastfeeding."
             ],
-            "prevention": [],
-            "prognosis": [],
-            "risk factors": [],
+            "complications": [
+                "If left untreated, HIV can lead to the development of AIDS (acquired immunodeficiency syndrome) and various opportunistic infections."
+            ],
+            "current research": [
+                "Current research focuses on developing more effective antiretroviral therapies and potential vaccines."
+            ],
+            "diagnosis": [
+                "HIV infection can be diagnosed through blood tests that detect the presence of HIV antibodies or the virus itself."
+            ],
+            "epidemiology": [
+                "HIV/AIDS is a global pandemic affecting millions of people worldwide."
+            ],
+            "none": [],
+            "prevention": [
+                "Practicing safe sex, using condoms, avoiding sharing needles, and getting tested regularly can help prevent HIV transmission."
+            ],
+            "prognosis": [
+                "With early diagnosis and proper medical care, people with HIV can live long and healthy lives."
+            ],
+            "risk factors": [
+                "Unprotected sexual intercourse, sharing needles, having multiple sexual partners, and engaging in high-risk behaviors increase the risk of HIV infection."
+            ],
             "symptoms": [
-                "no data",
-                "nothing updated here"
+                "Common symptoms of HIV include fever, fatigue, swollen lymph nodes, weight loss, and opportunistic infections."
             ],
             "treatment": [
-                "No data"
+                "Antiretroviral therapy (ART) is the standard treatment for HIV, which helps suppress the virus and boost the immune system."
             ]
         },
         {
             "tag": "lung cancer",
-            "causes": [],
-            "complications": [],
-            "current research": [],
-            "diagnosis": [],
-            "epidemiology": [],
-            "none": [
-                "Sorry, I do not understand",
-                "What you are looking for is beyond my capabilites",
-                "I am just a simple chatbot"
+            "causes": [
+                "Smoking tobacco is the leading cause of lung cancer.",
+                "Exposure to secondhand smoke, radon gas, asbestos, and certain air pollutants can also increase the risk."
             ],
-            "prevention": [],
-            "prognosis": [],
-            "risk factors": [],
+            "complications": [
+                "Lung cancer can lead to complications such as metastasis (spreading to other organs), respiratory problems, and reduced quality of life."
+            ],
+            "current research": [
+                "Ongoing research aims to develop new treatments, early detection methods, and strategies for prevention."
+            ],
+            "diagnosis": [
+                "Diagnosis involves imaging tests, biopsies, and analyzing tissue samples to determine the type and stage of lung cancer."
+            ],
+            "epidemiology": [
+                "Lung cancer is one of the most common cancers worldwide and is responsible for a significant number of cancer-related deaths."
+            ],
+            "none": [],
+            "prevention": [
+                "Quitting smoking, avoiding secondhand smoke, reducing exposure to carcinogens, and adopting a healthy lifestyle can help prevent lung cancer."
+            ],
+            "prognosis": [
+                "Prognosis depends on the stage and type of lung cancer, as well as the individual's overall health. Early detection and treatment can improve outcomes."
+            ],
+            "risk factors": [
+                "Smoking, exposure to secondhand smoke, occupational exposure to carcinogens, family history of lung cancer, and certain genetic mutations increase the risk."
+            ],
             "symptoms": [
-                "no data",
-                "nothing updated here"
+                "Common symptoms of lung cancer include persistent cough, chest pain, shortness of breath, unexplained weight loss, and coughing up blood."
             ],
             "treatment": [
-                "No data"
+                "Treatment options for lung cancer include surgery, radiation therapy, chemotherapy, targeted therapy, and immunotherapy."
             ]
         },
         {
             "tag": "malaria",
-            "causes": [],
-            "complications": [],
-            "current research": [],
-            "diagnosis": [],
-            "epidemiology": [],
-            "none": [
-                "Sorry, I do not understand",
-                "What you are looking for is beyond my capabilites",
-                "I am just a simple chatbot"
+            "causes": [
+                "Malaria is caused by the Plasmodium parasite, which is primarily transmitted through the bite of infected female Anopheles mosquitoes."
             ],
-            "prevention": [],
-            "prognosis": [],
-            "risk factors": [],
+            "complications": [
+                "Severe malaria can lead to complications such as organ failure, cerebral malaria (affecting the brain), anemia, and respiratory distress."
+            ],
+            "current research": [
+                "Current research focuses on developing new antimalarial drugs, vaccines, and strategies for mosquito control."
+            ],
+            "diagnosis": [
+                "Diagnosis involves laboratory tests to detect the presence of the malaria parasite in blood samples."
+            ],
+            "epidemiology": [
+                "Malaria is prevalent in many tropical and subtropical regions, particularly in Africa, Asia, and Latin America."
+            ],
+            "none": [],
+            "prevention": [
+                "Preventive measures against malaria include using insecticide-treated bed nets, taking antimalarial medication when traveling to endemic areas, and controlling mosquito breeding sites."
+            ],
+            "prognosis": [
+                "With early diagnosis and prompt treatment, most cases of malaria can be cured, although severe malaria can be life-threatening, especially in young children and pregnant women."
+            ],
+            "risk factors": [
+                "Risk factors for malaria include living in or traveling to endemic areas, not using protective measures against mosquito bites, and lack of immunity to the disease."
+            ],
             "symptoms": [
-                "no data",
-                "nothing updated here"
+                "Common symptoms of malaria include fever, chills, headache, muscle aches, fatigue, and nausea."
             ],
             "treatment": [
-                "No data"
+                "The choice of antimalarial medication depends on the type of malaria and the region where the infection occurred. Treatment typically involves using antimalarial drugs to kill the parasite."
             ]
         },
+        
         {
             "tag": "tuberculosis",
-            "causes": [],
-            "complications": [],
-            "current research": [],
-            "diagnosis": [],
-            "epidemiology": [],
-            "none": [
-                "Sorry, I do not understand",
-                "What you are looking for is beyond my capabilites",
-                "I am just a simple chatbot"
+            "causes": [
+                "Tuberculosis (TB) is caused by bacteria called Mycobacterium tuberculosis.",
+                "It is primarily transmitted through the air when an infected individual coughs or sneezes."
             ],
-            "prevention": [],
-            "prognosis": [],
-            "risk factors": [],
+            "complications": [
+                "Untreated or inadequately treated TB can lead to complications such as lung damage, spread of infection to other organs, and increased risk of drug-resistant TB."
+            ],
+            "current research": [
+                "Current research focuses on developing more effective diagnostic tools, shorter treatment regimens, and vaccines for tuberculosis."
+            ],
+            "diagnosis": [
+                "Diagnosis involves various tests, including imaging studies, sputum culture, and molecular tests, to confirm the presence of TB bacteria."
+            ],
+            "epidemiology": [
+                "Tuberculosis is a global health problem, particularly in developing countries with limited healthcare resources."
+            ],
+            "none": [],
+            "prevention": [
+                "Preventive measures against TB include vaccination (BCG vaccine in some countries), early detection and treatment of active cases, and infection control measures in healthcare settings."
+            ],
+            "prognosis": [
+                "With proper treatment, most cases of TB can be cured. However, treatment adherence is crucial to prevent relapse and the development of drug-resistant strains."
+            ],
+            "risk factors": [
+                "Factors that increase the risk of TB include close contact with an infected person, weakened immune system (e.g., HIV infection), malnutrition, and living in crowded or unsanitary conditions."
+            ],
             "symptoms": [
-                "no data",
-                "nothing updated here"
+                "Common symptoms of TB include persistent cough, chest pain, coughing up blood, fatigue, weight loss, and night sweats."
             ],
             "treatment": [
-                "No data"
+                "Treatment for TB involves a combination of several antibiotics taken for a specified duration. Directly Observed Therapy (DOT) is often used to ensure treatment adherence."
             ]
         },
         {
             "tag": "none",
-            "causes": [],
-            "complications": [],
-            "current research": [],
-            "diagnosis": [],
-            "epidemiology": [],
+            "causes": [
+                "Sorry, I don't have any knowledge about that disease",
+                "No record of this disease in my database",
+                "You might want to go to a specialist for this disease"
+            ],
+            "complications": [
+                "Sorry, I don't have any knowledge about that disease",
+                "No record of this disease in my database",
+                "You might want to go to a specialist for this disease"
+            ],
+            "current research": [
+                "Sorry, I don't have any knowledge about that disease",
+                "No record of this disease in my database",
+                "You might want to go to a specialist for this disease"
+            ],
+            "diagnosis": [
+                "Sorry, I don't have any knowledge about that disease",
+                "No record of this disease in my database",
+                "You might want to go to a specialist for this disease"
+            ],
+            "epidemiology": [
+                "Sorry, I don't have any knowledge about that disease",
+                "No record of this disease in my database",
+                "You might want to go to a specialist for this disease"
+            ],
             "none": [
                 "Sorry, I don't have any knowledge about that disease",
                 "No record of this disease in my database",
                 "You might want to go to a specialist for this disease"
             ],
-            "prevention": [],
-            "prognosis": [],
-            "risk factors": [],
-            "symptoms": [],
-            "treatment": []
+            "prevention": [
+                "Sorry, I don't have any knowledge about that disease",
+                "No record of this disease in my database",
+                "You might want to go to a specialist for this disease"
+            ],
+            "prognosis": [
+                "Sorry, I don't have any knowledge about that disease",
+                "No record of this disease in my database",
+                "You might want to go to a specialist for this disease"
+            ],
+            "risk factors": [
+                "Sorry, I don't have any knowledge about that disease",
+                "No record of this disease in my database",
+                "You might want to go to a specialist for this disease"
+            ],
+            "symptoms": [
+                "Sorry, I don't have any knowledge about that disease",
+                "No record of this disease in my database",
+                "You might want to go to a specialist for this disease"
+            ],
+            "treatment": [
+                "Sorry, I don't have any knowledge about that disease",
+                "No record of this disease in my database",
+                "You might want to go to a specialist for this disease"
+            ]
         }
     ]
 }

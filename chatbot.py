@@ -90,7 +90,7 @@ def bot_response(msg, disease):  # use this function to retrieve response for th
 
     # if "tag" matches the predicted disease then choose any of the random responses
     for item in all_disease:
-        if item["tag"] == disease:
+        if disease in item["tag"]:
             retrieved_res = random.choice(item[intent_tag])
             return retrieved_res
     return retrieved_res

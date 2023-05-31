@@ -4,30 +4,45 @@
             "tag": "symptoms",
             "patterns": [
                 "tell me about the symptoms of XXXX",
-                "how do i know if i have XXXX",
-                "do i have XXXX",
-                "how to know if i have XXXX",
+                "how do I know if I have XXXX",
+                "do I have XXXX",
+                "how to know if I have XXXX",
                 "what are the symptoms of XXXX",
                 "symptoms related to XXXX",
                 "what are the signs of having XXXX",
                 "symptoms of XXXX",
                 "its symptoms",
                 "XXXX symptoms",
-                "signs of XXXX"
+                "signs of XXXX",
+                "is XXXX characterized by specific symptoms",
+                "what are the common signs of XXXX",
+                "how can I recognize the symptoms of XXXX",
+                "tell me what XXXX feels like",
+                "are there any noticeable signs of XXXX",
+                "how does XXXX typically manifest",
+                "what are the usual indications of XXXX"
             ]
         },
         {
             "tag": "causes",
             "patterns": [
                 "what are the causes of XXXX",
-                "how come i have XXXX",
+                "how come I have XXXX",
                 "what might have caused XXXX in me",
                 "XXXX causes",
-                "how did i get it XXXX",
+                "how did I get XXXX",
                 "what could cause XXXX",
                 "what can cause XXXX",
                 "cause of XXXX",
-                "causes"
+                "causes",
+                "what factors contribute to XXXX",
+                "are there any known causes for XXXX",
+                "what are the potential triggers of XXXX",
+                "what circumstances lead to XXXX",
+                "are there any specific conditions that can cause XXXX",
+                "what are the underlying reasons for XXXX",
+                "can certain behaviors or habits lead to XXXX",
+                "what environmental factors are associated with XXXX"
             ]
         },
         {
@@ -35,37 +50,64 @@
             "patterns": [
                 "what might increase the chances of XXXX",
                 "what are the risk factors related to XXXX",
-                "how might it XXXX develop further",
-                "can it XXXX develop further",
+                "how might XXXX develop further",
+                "can XXXX develop further",
                 "what things can increase the chances of XXXX",
-                "what things should i avoid to minimize chances of XXXX progressing",
+                "what things should I avoid to minimize chances of XXXX progressing",
                 "what might minimize its progress",
                 "what might lead to its progress",
-                "its risk factors"
+                "its risk factors",
+                "are there any specific conditions that predispose someone to XXXX",
+                "what lifestyle choices can impact the development of XXXX",
+                "are there any demographic factors that influence the risk of XXXX",
+                "what genetic or hereditary factors contribute to XXXX",
+                "how does age affect the likelihood of XXXX",
+                "are there any specific occupations or activities associated with XXXX",
+                "what are the potential consequences of ignoring the risk factors for XXXX",
+                "how can someone modify their behavior to reduce the risk of XXXX"
             ]
         },
         {
             "tag": "diagnosis",
             "patterns": [
                 "diagnosis of XXXX",
-                "i am not sure if i have XXXX",
-                "how to diagnose i have XXXX",
-                "how do i confirm if i have XXXX",
+                "I am not sure if I have XXXX",
+                "how to diagnose if I have XXXX",
+                "how do I confirm if I have XXXX",
                 "I need to identify the presence of XXXX in my body",
-                "ways to identify if i have XXXX",
-                "how to be sure that i have XXXX",
-                "its diagnosis"
+                "ways to identify if I have XXXX",
+                "how to be sure that I have XXXX",
+                "its diagnosis",
+                "what tests are used to diagnose XXXX",
+                "how can I get a proper diagnosis for XXXX",
+                "are there any specific medical procedures for diagnosing XXXX",
+                "what are the steps involved in diagnosing XXXX",
+                "how accurate are the diagnostic methods for XXXX",
+                "can XXXX be detected through physical examinations",
+                "what are the common signs that healthcare professionals look for when diagnosing XXXX",
+                "is there a definitive test for confirming XXXX",
+                "how long does it take to get a diagnosis for XXXX"
             ]
         },
         {
             "tag": "complications",
             "patterns": [
-                "what happens if i have XXXX",
+                "what happens if I have XXXX",
                 "adverse effects of having XXXX",
                 "what will happen to me",
                 "what are the complications related to XXXX",
                 "what are the complications of XXXX",
-                "its complications"
+                "its complications",
+                "are there any potential risks or complications associated with XXXX",
+                "how does XXXX impact other organs or systems in the body",
+                "what are the long-term consequences of XXXX",
+                "can XXXX lead to other medical conditions",
+                "are there any known secondary complications of XXXX",
+                "what are the risks of leaving XXXX untreated",
+                "how can the complications of XXXX be managed",
+                "are there any specific preventive measures to avoid complications from XXXX",
+                "what steps can be taken to minimize the risks associated with XXXX",
+                "what are the chances of recovery from the complications of XXXX"
             ]
         },
         {
@@ -75,27 +117,45 @@
                 "how to cure XXXX",
                 "how to treat XXXX",
                 "how to get rid of XXXX",
-                "how did i get rid of XXXX",
-                "i want to be healthy again",
+                "how did I get rid of XXXX",
+                "I want to be healthy again",
                 "medications for XXXX",
-                "how do i get better",
+                "how do I get better",
                 "how to get well from XXXX",
                 "its treatment",
-                "any cure for XXXX"
+                "any cure for XXXX",
+                "what are the available treatment options for XXXX",
+                "are there any specific medications recommended for XXXX",
+                "what lifestyle changes can improve the outcome of XXXX",
+                "are there any alternative therapies or interventions for XXXX",
+                "how effective are the treatments for XXXX",
+                "what are the potential side effects of the treatments for XXXX",
+                "how long does the treatment for XXXX usually last",
+                "what are the chances of recovery from XXXX",
+                "what support or resources are available for managing XXXX"
             ]
         },
         {
             "tag": "prevention",
             "patterns": [
-                "how do i prevent getting XXXX",
+                "how do I prevent getting XXXX",
                 "preventive measures for XXXX",
-                "how do i prevent XXXX",
+                "how do I prevent XXXX",
                 "how to stay away from XXXX",
-                "how do i prevent XXXX from harming my body",
-                "i don't want to have XXXX",
+                "how do I prevent XXXX from harming my body",
+                "I don't want to have XXXX",
                 "preventions of XXXX",
-                "preventive measures of",
-                "its preventions"
+                "preventive measures of XXXX",
+                "its preventions",
+                "what can I do to reduce the risk of XXXX",
+                "are there any specific vaccinations or immunizations for preventing XXXX",
+                "how can hygiene practices help in preventing XXXX",
+                "what lifestyle choices can minimize the chances of XXXX",
+                "are there any specific dietary recommendations for preventing XXXX",
+                "what are the environmental factors to be mindful of to prevent XXXX",
+                "how effective are the preventive measures for XXXX",
+                "what are the consequences of neglecting the preventive measures for XXXX",
+                "how can someone create a safe and healthy environment to avoid XXXX"
             ]
         },
         {
@@ -105,7 +165,15 @@
                 "tell me about the prognosis of XXXX",
                 "The likely outcome or course of XXXX, including potential outcomes for different stages or types",
                 "what happens at the end",
-                "what happens to a person with XXXX afterwards"
+                "what happens to a person with XXXX afterwards",
+                "what is the long-term outlook for XXXX",
+                "are there any factors that can influence the prognosis of XXXX",
+                "what are the chances of survival or recovery from XXXX",
+                "are there any specific indicators that suggest a favorable prognosis for XXXX",
+                "what are the potential complications that can affect the prognosis of XXXX",
+                "how can someone improve their prognosis if diagnosed with XXXX",
+                "what are the statistical survival rates or life expectancy for XXXX",
+                "how does the prognosis of XXXX vary based on different treatment approaches"
             ]
         },
         {
@@ -114,7 +182,18 @@
                 "tell me about the epidemiology of XXXX",
                 "epidemiology of XXXX",
                 "Information about XXXX prevalence, distribution, and patterns within a population",
-                "how does this affect a population or people"
+                "how does this affect a population or people",
+                "what is the incidence rate of XXXX",
+                "what are the demographics most affected by XXXX",
+                "are there any geographical or regional trends associated with XXXX",
+                "what are the common age groups affected by XXXX",
+                "how does XXXX compare to other similar conditions in terms of prevalence",
+                "are there any known risk factors for XXXX based on the epidemiological data",
+                "what are the potential reasons behind the increasing or decreasing prevalence of XXXX",
+                "are there any ongoing initiatives or campaigns to address XXXX at a population level",
+                "what are the public health implications of XXXX",
+                "how does the epidemiology of XXXX impact healthcare resource allocation",
+                "what are the challenges in collecting accurate epidemiological data for XXXX"
             ]
         },
         {
@@ -127,20 +206,38 @@
                 "ongoing research about XXXX",
                 "publications related to XXXX",
                 "current affairs on XXXX",
-                "latest information XXXX"
+                "latest information XXXX",
+                "what are the recent advancements or breakthroughs in XXXX research",
+                "are there any promising treatments or therapies being developed for XXXX",
+                "what are the current clinical trials or studies focused on XXXX",
+                "how is technology being utilized in XXXX research",
+                "are there any emerging trends or areas of interest in the scientific community regarding XXXX",
+                "what are the potential future directions of XXXX research",
+                "how can someone participate in or contribute to XXXX research",
+                "what are the challenges or obstacles in conducting research on XXXX",
+                "how does the current research in XXXX translate to improved patient care"
             ]
         },
         {
             "tag": "none",
             "patterns": [
                 "can you cure my illness",
-                "i do not understand",
+                "I do not understand",
                 "how else can you help me",
-                "how can you help me?",
+                "what other information can you provide",
+                "I need more guidance",
                 "what are my pronouns",
                 "can i get a tattoo",
-                " ",
-                "good bye cruel world"
+                "can you recommend any resources or support groups",
+                "what should I do next",
+                "I'm feeling lost and overwhelmed",
+                "how can I find a healthcare professional specialized in XXXX",
+                "what are the common misconceptions about XXXX",
+                "are there any lifestyle changes I can make to improve my overall health",
+                "how can I manage the emotional impact of having XXXX",
+                "what are the available community or online resources for XXXX",
+                "what are the potential challenges in living with XXXX",
+                "how can I advocate for myself or raise awareness about XXXX"
             ]
         }
     ]

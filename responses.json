@@ -1,26 +1,444 @@
 {
     "responses": [
         {
-            "tag": "HIV",
-            "causes": ["no data"],
-            "complications": ["no data"],
-            "current research": ["no data"],
-            "diagnosis": ["no data"],
-            "epidemiology": ["no data"],
+            "tag": "alzheimer",
+            "causes": [
+                "The exact cause of Alzheimer's disease is not fully understood, but it is believed to involve a combination of genetic, environmental, and lifestyle factors.",
+                "The accumulation of certain proteins (beta-amyloid and tau) in the brain is thought to play a role in the development of Alzheimer's."
+            ],
+            "complications": [
+                "Complications of Alzheimer's disease can include progressive memory loss, cognitive decline, behavioral changes, and difficulty with daily activities."
+            ],
+            "current research": [
+                "Current research focuses on understanding the underlying mechanisms of Alzheimer's, early detection methods, and potential treatments or interventions to slow down disease progression."
+            ],
+            "diagnosis": [
+                "Diagnosis of Alzheimer's disease involves a thorough medical history, cognitive assessments, neurological examinations, brain imaging (MRI, PET scans), and sometimes genetic testing."
+            ],
+            "epidemiology": [
+                "Alzheimer's disease is a common form of dementia, primarily affecting older adults, with a significant impact on individuals, families, and society."
+            ],
             "none": [
                 "Sorry, I do not understand",
                 "What you are looking for is beyond my capabilites",
-                "I am just a simple chatbot"
+                "I am just a simple chatbot",
+                "Please visit a medical profession"
             ],
-            "prevention": ["no data"],
-            "prognosis": ["no data"],
-            "risk factors": ["no data"],
-            "symptoms": ["no data"],
-            "treatment": ["no data"]
+            "prevention": [
+                "While there is no proven way to prevent Alzheimer's disease, engaging in a mentally stimulating lifestyle, regular physical exercise, maintaining a healthy diet, and managing chronic conditions may help reduce the risk."
+            ],
+            "prognosis": [
+                "Alzheimer's disease is progressive and currently has no cure. However, early diagnosis, proper medical care, and support can help improve the quality of life for individuals and their caregivers."
+            ],
+            "risk factors": [
+                "Risk factors for Alzheimer's disease include increasing age, family history of the disease, certain genetic factors, history of head injuries, and certain chronic conditions like cardiovascular disease and diabetes."
+            ],
+            "symptoms": [
+                "Common symptoms of Alzheimer's disease include memory loss, confusion, difficulty with language and communication, mood changes, and disorientation."
+            ],
+            "treatment": [
+                "Treatment for Alzheimer's disease focuses on managing symptoms, providing supportive care, and enhancing quality of life. Medications may be used to help manage cognitive symptoms and behavioral changes."
+            ]
+        },
+        {
+            "tag": "arthritis",
+            "causes": [
+                "Arthritis can have various causes, depending on the specific type of arthritis. Common causes include wear and tear on joints (osteoarthritis), autoimmune disorders (rheumatoid arthritis), and abnormal immune response (gout, reactive arthritis)."
+            ],
+            "complications": [
+                "Complications of arthritis can include chronic pain, joint deformities, reduced mobility, difficulty performing daily activities, and impact on overall quality of life."
+            ],
+            "current research": [
+                "Current research focuses on understanding the underlying mechanisms of different types of arthritis, developing better treatments, and exploring new therapeutic options."
+            ],
+            "diagnosis": [
+                "Diagnosis of arthritis involves a combination of medical history, physical examination, imaging tests (X-rays, MRI), blood tests, and sometimes joint fluid analysis."
+            ],
+            "epidemiology": [
+                "Arthritis is a common condition, affecting millions of people worldwide. The prevalence increases with age."
+            ],
+            "none": [
+                "Sorry, I do not understand",
+                "What you are looking for is beyond my capabilites",
+                "I am just a simple chatbot",
+                "Please visit a medical profession"
+            ],
+            "prevention": [
+                "Prevention measures for arthritis include maintaining a healthy weight, engaging in regular physical activity, avoiding joint injuries, and protecting joints during physical tasks."
+            ],
+            "prognosis": [
+                "The prognosis of arthritis varies depending on the type and severity of the condition. With proper management and treatment, many people with arthritis can lead active lives and minimize the impact of symptoms."
+            ],
+            "risk factors": [
+                "Risk factors for arthritis include increasing age, family history of arthritis, previous joint injuries, obesity, certain occupations involving repetitive joint movements, and certain autoimmune conditions."
+            ],
+            "symptoms": [
+                "Common symptoms of arthritis include joint pain, stiffness, swelling, limited range of motion, warmth or redness in the affected joints, and difficulty with daily activities."
+            ],
+            "treatment": [
+                "Treatment for arthritis aims to manage symptoms, reduce inflammation, preserve joint function, and improve quality of life. It may include medications, physical therapy, assistive devices, lifestyle modifications, and surgery in severe cases."
+            ]
+        },
+        {
+            "tag": "asthma",
+            "causes": [
+                "Asthma is caused by a combination of genetic and environmental factors.",
+                "Triggers can include allergens (pollen, dust mites, pet dander), respiratory infections, air pollution, tobacco smoke, and certain medications."
+            ],
+            "complications": [
+                "Complications of asthma can include frequent respiratory infections, reduced lung function, and severe asthma attacks that require emergency medical care."
+            ],
+            "current research": [
+                "Current research focuses on understanding the underlying mechanisms of asthma, improving treatment options, and developing new therapies."
+            ],
+            "diagnosis": [
+                "Diagnosis involves a combination of medical history, physical examination, lung function tests (spirometry), and sometimes allergy testing."
+            ],
+            "epidemiology": [
+                "Asthma is a common chronic respiratory condition, affecting millions of people worldwide."
+            ],
+            "none": [
+                "Sorry, I do not understand",
+                "What you are looking for is beyond my capabilites",
+                "I am just a simple chatbot",
+                "Please visit a medical profession"
+            ],
+            "prevention": [
+                "Preventive measures for asthma include avoiding triggers, practicing good respiratory hygiene, and taking prescribed medications as directed."
+            ],
+            "prognosis": [
+                "With proper management and avoidance of triggers, most people with asthma can lead active lives with minimal symptoms."
+            ],
+            "risk factors": [
+                "Risk factors for asthma include a family history of asthma or allergies, exposure to tobacco smoke, respiratory infections during childhood, and certain occupational exposures."
+            ],
+            "symptoms": [
+                "Common symptoms of asthma include wheezing, coughing (especially at night), shortness of breath, chest tightness, and recurrent episodes of difficulty breathing."
+            ],
+            "treatment": [
+                "Treatment for asthma involves a combination of medication (inhaled corticosteroids, bronchodilators), avoiding triggers, and developing an asthma action plan."
+            ]
+        },
+        {
+            "tag": "breast cancer",
+            "causes": [
+                "The exact cause of breast cancer is unknown, but it is believed to involve a combination of genetic, hormonal, and environmental factors.",
+                "Certain risk factors, such as age, family history, hormonal factors (early menstruation, late menopause), and lifestyle choices (alcohol consumption, obesity), can increase the likelihood of developing breast cancer."
+            ],
+            "complications": [
+                "Complications of breast cancer can include the spread of cancer to other parts of the body (metastasis), local recurrence, emotional and psychological impact, and side effects of treatments."
+            ],
+            "current research": [
+                "Current research focuses on improving early detection methods, developing more targeted therapies, understanding the molecular basis of breast cancer subtypes, and exploring preventative strategies."
+            ],
+            "diagnosis": [
+                "Diagnosis of breast cancer involves a combination of mammography, clinical breast examination, imaging tests (ultrasound, MRI), and tissue biopsy for definitive confirmation."
+            ],
+            "epidemiology": [
+                "Breast cancer is one of the most common cancers worldwide, primarily affecting women but can also occur in men. It has a significant impact on individuals, families, and healthcare systems."
+            ],
+            "none": [
+                "Sorry, I do not understand",
+                "What you are looking for is beyond my capabilites",
+                "I am just a simple chatbot",
+                "Please visit a medical profession"
+            ],
+            "prevention": [
+                "Preventive measures for breast cancer include regular breast self-examination, clinical breast examination, mammography screening, maintaining a healthy lifestyle (regular exercise, healthy diet), limiting alcohol consumption, and considering risk-reducing strategies for high-risk individuals."
+            ],
+            "prognosis": [
+                "The prognosis of breast cancer depends on various factors, including the stage of cancer at diagnosis, the presence of specific biomarkers, and individual characteristics. Early detection and timely treatment significantly improve the chances of successful outcomes."
+            ],
+            "risk factors": [
+                "Risk factors for breast cancer include being female, increasing age, family history of breast cancer, certain gene mutations (BRCA1, BRCA2), hormonal factors, dense breast tissue, previous history of breast cancer, and certain lifestyle factors."
+            ],
+            "symptoms": [
+                "Common symptoms of breast cancer include a lump or thickening in the breast or underarm, changes in breast size or shape, nipple discharge or inversion, skin changes (dimpling, redness), and breast pain (though not always present)."
+            ],
+            "treatment": [
+                "Treatment for breast cancer depends on the stage and characteristics of the cancer. It may involve surgery (lumpectomy, mastectomy), radiation therapy, chemotherapy, targeted therapy, hormone therapy, and immunotherapy."
+            ]
+        },
+        {
+            "tag": "copd",
+            "causes": [
+                "COPD is primarily caused by long-term exposure to irritants that damage the lungs, particularly cigarette smoke (including secondhand smoke) and environmental pollutants."
+            ],
+            "complications": [
+                "Complications of COPD can include respiratory infections, respiratory failure, heart problems, and reduced quality of life due to limited lung function."
+            ],
+            "current research": [
+                "Current research focuses on improving COPD management, developing new therapies, and understanding the underlying mechanisms of the disease."
+            ],
+            "diagnosis": [
+                "Diagnosis of COPD involves medical history, physical examination, lung function tests (spirometry), imaging tests (chest X-ray or CT scan), and sometimes blood tests."
+            ],
+            "epidemiology": [
+                "COPD is a common progressive lung disease, primarily affecting smokers or individuals with a history of long-term exposure to lung irritants."
+            ],
+            "none": [
+                "Sorry, I do not understand",
+                "What you are looking for is beyond my capabilites",
+                "I am just a simple chatbot",
+                "Please visit a medical profession"
+            ],
+            "prevention": [
+                "Prevention measures for COPD include avoiding tobacco smoke (active and passive), minimizing exposure to lung irritants (such as occupational pollutants), and protecting lung health through a healthy lifestyle."
+            ],
+            "prognosis": [
+                "The prognosis of COPD depends on various factors, including the stage of the disease, individual characteristics, and adherence to treatment and lifestyle changes. Proper management can help slow disease progression and improve symptoms."
+            ],
+            "risk factors": [
+                "Risk factors for COPD include smoking (active and passive), long-term exposure to environmental pollutants (such as fumes, dust, and chemicals), and genetic factors (such as alpha-1 antitrypsin deficiency)."
+            ],
+            "symptoms": [
+                "Common symptoms of COPD include chronic cough, shortness of breath (especially during physical activity), wheezing, chest tightness, and frequent respiratory infections."
+            ],
+            "treatment": [
+                "Treatment for COPD aims to relieve symptoms, slow disease progression, and improve quality of life. It may involve medications (bronchodilators, corticosteroids), pulmonary rehabilitation, oxygen therapy, and sometimes surgical interventions."
+            ]
+        },
+        {
+            "tag": "covid-19",
+            "causes": [
+                "COVID-19 is caused by the SARS-CoV-2 virus, which is primarily transmitted through respiratory droplets when an infected person coughs, sneezes, talks, or breathes. It can also spread by touching contaminated surfaces and then touching the face."
+            ],
+            "complications": [
+                "Complications of COVID-19 can vary in severity and may include pneumonia, acute respiratory distress syndrome (ARDS), organ failure, blood clots, multi-system inflammatory syndrome in children (MIS-C), and long-term effects such as chronic fatigue, respiratory issues, and cognitive difficulties."
+            ],
+            "current research": [
+                "Current research on COVID-19 focuses on various aspects, including understanding the virus, developing effective vaccines, studying treatments and therapeutics, tracking variants, improving testing methods, and implementing public health strategies to control the spread."
+            ],
+            "diagnosis": [
+                "Diagnosis of COVID-19 involves a combination of clinical evaluation, symptoms assessment, and laboratory tests, such as PCR or antigen tests, to detect the presence of the SARS-CoV-2 virus in respiratory samples."
+            ],
+            "epidemiology": [
+                "COVID-19 has become a global pandemic, affecting countries worldwide. Its transmission is influenced by factors like population density, social interactions, public health measures, and the emergence of variants. The epidemiology of COVID-19 continues to evolve as new information becomes available."
+            ],
+            "none": [
+                "Sorry, I do not understand",
+                "What you are looking for is beyond my capabilites",
+                "I am just a simple chatbot",
+                "Please visit a medical profession"
+            ],
+            "prevention": [
+                "Preventive measures for COVID-19 include practicing good hand hygiene, wearing masks, maintaining physical distance from others, avoiding large gatherings, following local health guidelines and regulations, getting vaccinated, and staying updated on the latest information from trusted sources."
+            ],
+            "prognosis": [
+                "The prognosis for COVID-19 varies depending on various factors, including age, underlying health conditions, and access to medical care. While many individuals experience mild to moderate symptoms and recover fully, severe cases can require hospitalization and may result in long-term complications or death."
+            ],
+            "risk factors": [
+                "Risk factors for severe COVID-19 include older age, underlying health conditions such as diabetes, heart disease, obesity, weakened immune system, and certain occupations or living situations that involve increased exposure to the virus."
+            ],
+            "symptoms": [
+                "Common symptoms of COVID-19 include fever, cough, shortness of breath, fatigue, muscle or body aches, loss of taste or smell, sore throat, headache, congestion, runny nose, nausea or vomiting, and diarrhea. Symptoms can range from mild to severe."
+            ],
+            "treatment": [
+                "Treatment for COVID-19 involves supportive care to manage symptoms, such as rest, hydration, and over-the-counter pain relievers. In severe cases, hospitalization may be required, and treatments like supplemental oxygen, antiviral medications, corticosteroids, and other supportive therapies may be used."
+            ]
+        },
+        {
+            "tag": "depression",
+            "causes": [
+                "Depression is a mental health disorder with complex causes. It can be influenced by a combination of genetic, biological, environmental, and psychological factors."
+            ],
+            "complications": [
+                "Complications of depression can include impaired daily functioning, reduced quality of life, increased risk of other mental health disorders, relationship difficulties, and in severe cases, suicidal thoughts or actions."
+            ],
+            "current research": [
+                "Current research focuses on understanding the underlying mechanisms of depression, improving diagnostic methods, developing more effective treatments, and reducing the stigma associated with mental health disorders."
+            ],
+            "diagnosis": [
+                "Diagnosis of depression involves a thorough assessment of symptoms, medical history, and psychological evaluation. Diagnostic criteria outlined in the Diagnostic and Statistical Manual of Mental Disorders (DSM-5) are used by healthcare professionals."
+            ],
+            "epidemiology": [
+                "Depression is a widespread mental health disorder, affecting millions of people worldwide. It can occur at any age, although the onset is most common in late adolescence or early adulthood."
+            ],
+            "none": [
+                "Sorry, I do not understand",
+                "What you are looking for is beyond my capabilites",
+                "I am just a simple chatbot",
+                "Please visit a medical profession"
+            ],
+            "prevention": [
+                "Preventive measures for depression are not well-established, but promoting mental health awareness, early detection of symptoms, and providing support and access to appropriate care can help reduce the burden of the disorder."
+            ],
+            "prognosis": [
+                "The prognosis of depression varies depending on the individual and the severity of the condition. With proper diagnosis and treatment, many people with depression can experience significant improvement in their symptoms and quality of life."
+            ],
+            "risk factors": [
+                "Risk factors for depression include a personal or family history of depression or other mental health disorders, certain life events (such as loss or trauma), chronic illnesses, substance abuse, and certain medications."
+            ],
+            "symptoms": [
+                "Common symptoms of depression include persistent feelings of sadness, hopelessness, loss of interest or pleasure in activities, changes in appetite or weight, sleep disturbances, fatigue, difficulty concentrating, and thoughts of death or suicide."
+            ],
+            "treatment": [
+                "Treatment for depression can involve various approaches, including psychotherapy (such as cognitive-behavioral therapy), medications (such as antidepressants), support groups, lifestyle changes, and in severe cases, electroconvulsive therapy (ECT)."
+            ]
+        },
+        {
+            "tag": "diabetes",
+            "causes": [
+                "Diabetes can be caused by a combination of genetic and environmental factors.",
+                "Risk factors include obesity, sedentary lifestyle, unhealthy diet, family history of diabetes, and certain medical conditions."
+            ],
+            "complications": [
+                "Complications of diabetes can include cardiovascular disease, kidney damage, nerve damage, eye problems, and foot problems."
+            ],
+            "current research": [
+                "Current research focuses on developing better treatments, improving blood sugar control, and understanding the underlying mechanisms of diabetes."
+            ],
+            "diagnosis": [
+                "Diabetes can be diagnosed through blood tests that measure fasting blood glucose levels, oral glucose tolerance tests, or glycated hemoglobin (HbA1c) tests."
+            ],
+            "epidemiology": [
+                "Diabetes is a global health concern, with millions of people affected worldwide."
+            ],
+            "none": [
+                "Sorry, I do not understand",
+                "What you are looking for is beyond my capabilites",
+                "I am just a simple chatbot",
+                "Please visit a medical profession"
+            ],
+            "prevention": [
+                "Prevention measures for diabetes include maintaining a healthy weight, engaging in regular physical activity, and following a balanced diet."
+            ],
+            "prognosis": [
+                "With proper management and lifestyle changes, people with diabetes can lead healthy lives and minimize the risk of complications."
+            ],
+            "risk factors": [
+                "Risk factors for diabetes include obesity, sedentary lifestyle, unhealthy diet, family history of diabetes, and certain medical conditions like polycystic ovary syndrome (PCOS)."
+            ],
+            "symptoms": [
+                "Common symptoms of diabetes include frequent urination, excessive thirst, unexplained weight loss, increased hunger, fatigue, and blurred vision."
+            ],
+            "treatment": [
+                "Treatment for diabetes typically involves blood sugar monitoring, lifestyle changes (diet and exercise), oral medication, and/or insulin therapy."
+            ]
+        },
+        {
+            "tag": "HIV",
+            "causes": [
+                "HIV is caused by the human immunodeficiency virus.",
+                "It is primarily transmitted through unprotected sexual intercourse, sharing needles, or from mother to child during childbirth or breastfeeding."
+            ],
+            "complications": [
+                "If left untreated, HIV can lead to the development of AIDS (acquired immunodeficiency syndrome) and various opportunistic infections."
+            ],
+            "current research": [
+                "Current research focuses on developing more effective antiretroviral therapies and potential vaccines."
+            ],
+            "diagnosis": [
+                "HIV infection can be diagnosed through blood tests that detect the presence of HIV antibodies or the virus itself."
+            ],
+            "epidemiology": [
+                "HIV/AIDS is a global pandemic affecting millions of people worldwide."
+            ],
+            "none": [
+                "Sorry, I do not understand",
+                "What you are looking for is beyond my capabilites",
+                "I am just a simple chatbot",
+                "Please visit a medical profession"
+            ],
+            "prevention": [
+                "Practicing safe sex, using condoms, avoiding sharing needles, and getting tested regularly can help prevent HIV transmission."
+            ],
+            "prognosis": [
+                "With early diagnosis and proper medical care, people with HIV can live long and healthy lives."
+            ],
+            "risk factors": [
+                "Unprotected sexual intercourse, sharing needles, having multiple sexual partners, and engaging in high-risk behaviors increase the risk of HIV infection."
+            ],
+            "symptoms": [
+                "Common symptoms of HIV include fever, fatigue, swollen lymph nodes, weight loss, and opportunistic infections."
+            ],
+            "treatment": [
+                "Antiretroviral therapy (ART) is the standard treatment for HIV, which helps suppress the virus and boost the immune system."
+            ]
+        },
+        {
+            "tag": "hypertension",
+            "causes": [
+                "Hypertension can have various causes, including genetic factors, lifestyle choices, and underlying medical conditions.",
+                "Risk factors for hypertension include family history of high blood pressure, age, obesity, unhealthy diet (high in sodium), sedentary lifestyle, and certain chronic conditions."
+            ],
+            "complications": [
+                "Complications of hypertension can include heart disease, stroke, kidney damage, vision problems, and other organ damage."
+            ],
+            "current research": [
+                "Current research focuses on understanding the mechanisms of hypertension, developing more effective treatments, and exploring lifestyle interventions to prevent and manage high blood pressure."
+            ],
+            "diagnosis": [
+                "Diagnosis of hypertension involves multiple blood pressure measurements taken on different occasions, along with medical history, physical examination, and sometimes additional tests to assess organ damage."
+            ],
+            "epidemiology": [
+                "Hypertension is a prevalent health condition worldwide, with a significant impact on cardiovascular health and overall mortality rates."
+            ],
+            "none": [
+                "Sorry, I do not understand",
+                "What you are looking for is beyond my capabilites",
+                "I am just a simple chatbot",
+                "Please visit a medical profession"
+            ],
+            "prevention": [
+                "Preventive measures for hypertension include maintaining a healthy weight, adopting a balanced diet (low in sodium, rich in fruits and vegetables), regular physical activity, limiting alcohol consumption, and managing stress."
+            ],
+            "prognosis": [
+                "The prognosis of hypertension depends on various factors, including blood pressure control, adherence to treatment and lifestyle changes, and management of associated risk factors. With proper management, many people with hypertension can lead healthy lives."
+            ],
+            "risk factors": [
+                "Risk factors for hypertension include family history of high blood pressure, age, obesity, unhealthy diet (high in sodium), sedentary lifestyle, tobacco use, excessive alcohol consumption, and certain medical conditions (diabetes, kidney disease)."
+            ],
+            "symptoms": [
+                "Hypertension is often called the 'silent killer' because it typically doesn't cause noticeable symptoms. Most people with high blood pressure are asymptomatic, and the condition is detected during routine check-ups or when complications arise."
+            ],
+            "treatment": [
+                "Treatment for hypertension may include lifestyle modifications (diet, exercise, stress management), medications (antihypertensive drugs), and regular monitoring of blood pressure to achieve and maintain target levels."
+            ]
+        },
+        {
+            "tag": "influenza",
+            "causes": [
+                "Influenza is caused by influenza viruses, which can be categorized into different types (A, B, C)."
+            ],
+            "complications": [
+                "Complications of influenza can include pneumonia, bronchitis, sinus infections, ear infections, and worsening of underlying medical conditions."
+            ],
+            "current research": [
+                "Current research focuses on surveillance and monitoring of influenza strains, developing effective vaccines, improving treatment options, and understanding the transmission dynamics of the virus."
+            ],
+            "diagnosis": [
+                "Diagnosis of influenza is usually based on symptoms, medical history, and sometimes laboratory tests (rapid influenza diagnostic tests or PCR testing)."
+            ],
+            "epidemiology": [
+                "Influenza is a highly contagious respiratory illness that affects millions of people worldwide during seasonal outbreaks."
+            ],
+            "none": [
+                "Sorry, I do not understand",
+                "What you are looking for is beyond my capabilites",
+                "I am just a simple chatbot",
+                "Please visit a medical profession"
+            ],
+            "prevention": [
+                "Preventive measures for influenza include annual vaccination, practicing good respiratory hygiene (covering mouth and nose when coughing or sneezing), frequent handwashing, and avoiding close contact with infected individuals."
+            ],
+            "prognosis": [
+                "The prognosis of influenza is generally good for healthy individuals, with symptoms resolving within a week or two. However, complications can occur, especially in vulnerable populations."
+            ],
+            "risk factors": [
+                "Risk factors for severe influenza or complications include age (young children and older adults), weakened immune system, underlying medical conditions (asthma, diabetes, heart disease), and pregnancy."
+            ],
+            "symptoms": [
+                "Common symptoms of influenza include fever, cough, sore throat, runny or stuffy nose, body aches, headache, fatigue, and sometimes gastrointestinal symptoms (nausea, vomiting, diarrhea)."
+            ],
+            "treatment": [
+                "Treatment for influenza primarily focuses on relieving symptoms and includes rest, fluids, over-the-counter pain relievers, and antiviral medications (if prescribed early in the course of the illness and for certain high-risk individuals)."
+            ]
         },
         {
             "tag": "lung cancer",
             "causes": [
+                "Smoking tobacco is the leading cause of lung cancer. \nExposure to secondhand smoke, radon gas, asbestos, and certain air pollutants can also increase the risk.",
                 "The primary cause of lung cancer is cigarette smoking, which accounts for the majority of cases. Other risk factors include exposure to secondhand smoke, radon gas, asbestos, air pollution, certain chemicals (such as arsenic, uranium, and coal products), a family history of lung cancer, and previous radiation therapy to the chest."
             ],
             "complications": [
@@ -77,7 +495,8 @@
             "none": [
                 "Sorry, I do not understand",
                 "What you are looking for is beyond my capabilites",
-                "I am just a simple chatbot"
+                "I am just a simple chatbot",
+                "Please visit a medical profession"
             ],
             "prevention": [
                 "There are a number of ways to prevent malaria, including:\nUsing insect repellent\nSleeping under a mosquito net treated with insecticide\nWearing long sleeves and pants when outdoors\nAvoiding travel to areas where malaria is common"
@@ -93,6 +512,163 @@
             ],
             "treatment": [
                 "Malaria is treated with antimalarial drugs. The type of drug used depends on the type of parasite."
+            ]
+        },
+        {
+            "tag": "osteoarthritis",
+            "causes": [
+                "Osteoarthritis is a degenerative joint disease that primarily results from the wear and tear of joint cartilage over time. Factors that can contribute to its development include aging, joint injuries, obesity, and genetics."
+            ],
+            "complications": [
+                "Complications of osteoarthritis can include chronic pain, reduced joint mobility and function, joint deformities, and limitations in daily activities and quality of life."
+            ],
+            "current research": [
+                "Current research focuses on understanding the underlying mechanisms of osteoarthritis, developing new treatments to alleviate symptoms and slow disease progression, and improving joint replacement techniques."
+            ],
+            "diagnosis": [
+                "Diagnosis of osteoarthritis involves medical history, physical examination, imaging tests (such as X-rays or MRI), and sometimes joint fluid analysis."
+            ],
+            "epidemiology": [
+                "Osteoarthritis is the most common form of arthritis, affecting millions of people worldwide. It is more common in older adults, but can also affect younger individuals, especially if they have a history of joint injuries or other risk factors."
+            ],
+            "none": [
+                "Sorry, I do not understand",
+                "What you are looking for is beyond my capabilites",
+                "I am just a simple chatbot",
+                "Please visit a medical profession"
+            ],
+            "prevention": [
+                "Preventive measures for osteoarthritis include maintaining a healthy weight, engaging in regular exercise, protecting joints from injury, and managing other medical conditions that can affect joint health."
+            ],
+            "prognosis": [
+                "The prognosis of osteoarthritis varies depending on the severity of the disease and individual factors. While there is no cure, proper management can help control symptoms and slow disease progression, allowing individuals to maintain functional and active lives."
+            ],
+            "risk factors": [
+                "Risk factors for osteoarthritis include advancing age, obesity, joint injuries or overuse, genetics, certain medical conditions (such as rheumatoid arthritis), and occupations that involve repetitive joint stress."
+            ],
+            "symptoms": [
+                "Common symptoms of osteoarthritis include joint pain, stiffness, tenderness, reduced range of motion, and the formation of bony enlargements (bone spurs) around the affected joints."
+            ],
+            "treatment": [
+                "Treatment for osteoarthritis aims to relieve pain, improve joint function, and enhance quality of life. It may involve medications (such as pain relievers or anti-inflammatory drugs), physical therapy, assistive devices, and in severe cases, joint replacement surgery."
+            ]
+        },
+        {
+            "tag": "osteoporosis",
+            "causes": [
+                "Osteoporosis is a bone disease characterized by reduced bone density and increased risk of fractures. The primary causes include aging, hormonal changes (such as decreased estrogen levels in women during menopause), and inadequate calcium and vitamin D intake."
+            ],
+            "complications": [
+                "Complications of osteoporosis can include fractures (particularly in the spine, hip, or wrist), chronic pain, reduced mobility and independence, and decreased quality of life."
+            ],
+            "current research": [
+                "Current research focuses on understanding the pathophysiology of osteoporosis, developing new treatments to prevent bone loss and fractures, and improving screening and diagnostic methods."
+            ],
+            "diagnosis": [
+                "Diagnosis of osteoporosis involves bone density tests, such as dual-energy X-ray absorptiometry (DXA) scans, which measure bone mineral density. Other tests may be done to assess fracture risk and identify potential underlying causes."
+            ],
+            "epidemiology": [
+                "Osteoporosis is a common condition, particularly among older adults, especially postmenopausal women. It affects millions of people worldwide and is a significant public health concern."
+            ],
+            "none": [
+                "Sorry, I do not understand",
+                "What you are looking for is beyond my capabilites",
+                "I am just a simple chatbot",
+                "Please visit a medical profession"
+            ],
+            "prevention": [
+                "Preventive measures for osteoporosis include maintaining a healthy diet rich in calcium and vitamin D, engaging in weight-bearing exercises, avoiding smoking and excessive alcohol consumption, and regularly monitoring bone health."
+            ],
+            "prognosis": [
+                "The prognosis of osteoporosis depends on various factors, including the severity of bone loss, the presence of fractures, and the individual's overall health. Proper management, including lifestyle modifications and appropriate treatment, can help reduce the risk of fractures and maintain bone health."
+            ],
+            "risk factors": [
+                "Risk factors for osteoporosis include advancing age, female gender, postmenopausal status, family history of the condition, low body weight, sedentary lifestyle, smoking, excessive alcohol consumption, and certain medical conditions or medications."
+            ],
+            "symptoms": [
+                "Osteoporosis is often called the 'silent disease' because it typically doesn't cause symptoms until a fracture occurs. Common signs include loss of height over time, stooped posture, back pain, and fractures that occur with minimal trauma or normal daily activities."
+            ],
+            "treatment": [
+                "Treatment for osteoporosis aims to prevent fractures, slow down bone loss, and promote bone health. It may involve lifestyle changes (such as diet and exercise), calcium and vitamin D supplements, medications (such as bisphosphonates or hormone therapy), and fall prevention strategies."
+            ]
+        },
+        {
+            "tag": "parkinson's disease",
+            "causes": [
+                "Parkinson's disease is caused by the degeneration of dopamine-producing cells in the brain. The exact cause is not fully understood, but a combination of genetic and environmental factors is believed to play a role."
+            ],
+            "complications": [
+                "Complications of Parkinson's disease can include motor symptoms (tremors, bradykinesia, rigidity), balance and gait problems, speech and swallowing difficulties, sleep disturbances, cognitive changes, and emotional and psychiatric issues."
+            ],
+            "current research": [
+                "Current research focuses on understanding the underlying mechanisms of Parkinson's disease, developing new therapies to manage symptoms and slow disease progression, and improving quality of life for affected individuals."
+            ],
+            "diagnosis": [
+                "Diagnosis of Parkinson's disease involves medical history, neurological examination, and assessment of symptoms. Imaging tests (such as MRI or DaTSCAN) may be used to rule out other conditions."
+            ],
+            "epidemiology": [
+                "Parkinson's disease is a progressive neurological disorder, primarily affecting older adults. It is relatively common, with a significant impact on individuals and their families."
+            ],
+            "none": [
+                "Sorry, I do not understand",
+                "What you are looking for is beyond my capabilites",
+                "I am just a simple chatbot",
+                "Please visit a medical profession"
+            ],
+            "prevention": [
+                "Preventive measures for Parkinson's disease are not yet established, but some evidence suggests that regular exercise, a healthy diet, and avoiding certain environmental toxins may help reduce the risk."
+            ],
+            "prognosis": [
+                "The prognosis of Parkinson's disease varies, but it is a progressive condition with no cure currently available. Proper management with medication, therapy, and lifestyle modifications can help control symptoms and improve quality of life."
+            ],
+            "risk factors": [
+                "Risk factors for Parkinson's disease include increasing age, family history of the disease, certain genetic mutations (such as in the LRRK2 or PARKIN genes), and exposure to certain environmental toxins."
+            ],
+            "symptoms": [
+                "Common symptoms of Parkinson's disease include tremors (often starting in the hands or fingers), stiffness or rigidity of the muscles, bradykinesia (slowness of movement), impaired balance and coordination, and changes in speech and writing."
+            ],
+            "treatment": [
+                "Treatment for Parkinson's disease aims to manage symptoms and improve quality of life. It may involve medications to increase dopamine levels in the brain, physical therapy, speech therapy, and in some cases, surgical interventions."
+            ]
+        },
+        {
+            "tag": "stroke",
+            "causes": [
+                "Stroke can be caused by a disruption of blood flow to the brain, either due to a blockage (ischemic stroke) or bleeding (hemorrhagic stroke).",
+                "Risk factors for stroke include high blood pressure, smoking, diabetes, high cholesterol, obesity, sedentary lifestyle, and certain medical conditions."
+            ],
+            "complications": [
+                "Complications of stroke can include physical disabilities, cognitive impairments, speech and language difficulties, emotional changes, and increased risk of future strokes."
+            ],
+            "current research": [
+                "Current research focuses on improving stroke prevention strategies, acute stroke treatments, rehabilitation techniques, and understanding the long-term effects of stroke."
+            ],
+            "diagnosis": [
+                "Diagnosis of stroke involves a combination of medical history, physical examination, brain imaging (CT scan, MRI), blood tests, and sometimes additional tests like angiography."
+            ],
+            "epidemiology": [
+                "Stroke is a leading cause of death and disability worldwide, with significant impact on individuals and healthcare systems."
+            ],
+            "none": [
+                "Sorry, I do not understand",
+                "What you are looking for is beyond my capabilites",
+                "I am just a simple chatbot",
+                "Please visit a medical profession"
+            ],
+            "prevention": [
+                "Prevention measures for stroke include managing and controlling risk factors, such as blood pressure, diabetes, cholesterol, and maintaining a healthy lifestyle (exercise, healthy diet, not smoking)."
+            ],
+            "prognosis": [
+                "The prognosis of stroke depends on various factors, including the severity of the stroke, the area of the brain affected, and the timeliness and effectiveness of medical interventions and rehabilitation."
+            ],
+            "risk factors": [
+                "Risk factors for stroke include high blood pressure, smoking, diabetes, high cholesterol, obesity, sedentary lifestyle, family history of stroke, and certain medical conditions like atrial fibrillation."
+            ],
+            "symptoms": [
+                "Common symptoms of stroke include sudden numbness or weakness on one side of the body, trouble speaking or understanding speech, sudden severe headache, vision problems, and loss of balance or coordination."
+            ],
+            "treatment": [
+                "Treatment for stroke depends on the type of stroke and its underlying cause. It may involve medications, medical procedures, surgery, rehabilitation, and lifestyle modifications."
             ]
         },
         {
