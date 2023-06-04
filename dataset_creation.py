@@ -8,7 +8,7 @@ txt_responses = open("responses.txt", "r", encoding="UTF-8").read()
 sections = txt_responses.split("\n\n")
 
 
-with open("response.json", "r") as file:
+with open("response_for_creation.json", "r") as file:
     responses = json.load(file)
 
 
@@ -39,5 +39,5 @@ for item in responses["responses"]:
 
 with open("responses.json", "w") as x:
     json.dump(responses, x, indent=3)
-file.close()
-x.close()
+# file.close()
+# x.close()
