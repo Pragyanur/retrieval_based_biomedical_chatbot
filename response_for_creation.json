@@ -1,39 +1,20 @@
+
+
 {
     "responses": [
         {
-            "tag": "HIV",
-            "causes": [
-                "HIV is caused by the human immunodeficiency virus.",
-                "It is primarily transmitted through unprotected sexual intercourse, sharing needles, or from mother to child during childbirth or breastfeeding."
-            ],
-            "complications": [
-                "If left untreated, HIV can lead to the development of AIDS (acquired immunodeficiency syndrome) and various opportunistic infections."
-            ],
-            "current research": [
-                "Current research focuses on developing more effective antiretroviral therapies and potential vaccines."
-            ],
-            "diagnosis": [
-                "HIV infection can be diagnosed through blood tests that detect the presence of HIV antibodies or the virus itself."
-            ],
-            "epidemiology": [
-                "HIV/AIDS is a global pandemic affecting millions of people worldwide."
-            ],
-            "none": [],
-            "prevention": [
-                "Practicing safe sex, using condoms, avoiding sharing needles, and getting tested regularly can help prevent HIV transmission."
-            ],
-            "prognosis": [
-                "With early diagnosis and proper medical care, people with HIV can live long and healthy lives."
-            ],
-            "risk factors": [
-                "Unprotected sexual intercourse, sharing needles, having multiple sexual partners, and engaging in high-risk behaviors increase the risk of HIV infection."
-            ],
-            "symptoms": [
-                "Common symptoms of HIV include fever, fatigue, swollen lymph nodes, weight loss, and opportunistic infections."
-            ],
-            "treatment": [
-                "Antiretroviral therapy (ART) is the standard treatment for HIV, which helps suppress the virus and boost the immune system."
-            ]
+            "tag": "disease_name",
+            "causes": ["causes of disease_name"],
+            "complications": ["complications of disease_name"],
+            "current research": ["current research of disease_name"],
+            "diagnosis": ["diagnosis of disease_name"],
+            "epidemiology": ["epidemiology of disease_name"],
+            "none": ["not capable of answering responses"],
+            "prevention": ["prevention of disease_name"],
+            "prognosis": ["prognosis of disease_name"],
+            "risk factors": ["risk factors of disease_name"],
+            "symptoms": ["symptoms of disease_name"],
+            "treatment": ["treatment of disease_name"]
         },
         {
             "tag": "lung cancer",

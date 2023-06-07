@@ -104,7 +104,7 @@ def chat():
         msg = str(input("User: "))
         if msg.lower() == "exit" or msg.lower() == "quit":
             exit()
-        disease = predict_disease(msg, disease)              # predict disease
-        print("Bot: ", bot_response(msg, disease), "\n")         # pass it to response function
+        disease = predict_disease(msg, disease)                     # predict disease
+        print("Bot: ", bot_response(msg, disease), "\n")            # pass it to response function
 
 chat()
