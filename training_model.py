@@ -17,7 +17,7 @@ documents = []  # list(words in pattern, corresponding tag)
 classes = []  # intent classes from intents.json
 ignore_words = ["?", "!", "XXXX", "disease"]
 
-file = open("responses.json", "r", encoding="UTF-8")
+file = open("data/responses.json", "r", encoding="UTF-8")
 data = json.load(file)
 
 for disease in data["responses"]:
@@ -25,7 +25,7 @@ for disease in data["responses"]:
     diseases.append(d)
 
 
-file = open("intents.json", "r", encoding="UTF-8")
+file = open("data/intents.json", "r", encoding="UTF-8")
 intents = json.load(file)
 
 for intent in intents["intents"]:
@@ -52,9 +52,9 @@ print("diseases: ", diseases)
 print("classes: ", classes)
 print("")
 
-pickle.dump(words, open("pickles/words.pkl", "wb"))
-pickle.dump(diseases, open("pickles/diseases.pkl", "wb"))
-pickle.dump(classes, open("pickles/classes.pkl", "wb"))
+pickle.dump(words, open("data/words.pkl", "wb"))
+pickle.dump(diseases, open("data/diseases.pkl", "wb"))
+pickle.dump(classes, open("data/classes.pkl", "wb"))
 
 training = []
 output_empty = [0] * len(classes)
@@ -88,6 +88,6 @@ model.compile(loss="categorical_crossentropy", optimizer=sgd, metrics=["accuracy
 HIST = model.fit(
     np.array(train_x), np.array(train_y), epochs=500, batch_size=5, verbose=1
 )
-model.save("intent_classification.h5", HIST)
+model.save("models/intent_classification.h5", HIST)
 
 print("model trained and saved")

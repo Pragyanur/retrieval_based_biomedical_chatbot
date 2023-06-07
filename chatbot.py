@@ -12,15 +12,15 @@ import utility as u
 lemmatizer = WordNetLemmatizer()
 
 nlp = spacy.load("en_core_sci_sm")
-model = load_model("intent_classification.h5", compile=False)
+model = load_model("models/intent_classification.h5", compile=False)
 
-responses_starts = open("responses.json", "r", encoding="UTF-8")
+responses_starts = open("data/responses.json", "r", encoding="UTF-8")
 responses = json.load(responses_starts)
 
-words = pickle.load(open("pickles/words.pkl", "rb"))
-diseases = pickle.load(open("pickles/diseases.pkl", "rb"))
-classes = pickle.load(open("pickles/classes.pkl", "rb"))
-# ignore_words = pickle.load(open("pickles/ignore_words.pkl", "rb"))
+words = pickle.load(open("data/words.pkl", "rb"))
+diseases = pickle.load(open("data/diseases.pkl", "rb"))
+classes = pickle.load(open("data/classes.pkl", "rb"))
+# ignore_words = pickle.load(open("data/ignore_words.pkl", "rb"))
 ignore_words = ["?", "!", "XXXX", "disease"]
 
 

@@ -5,11 +5,11 @@ lemmatizer = WordNetLemmatizer()
 ignore_words = ["?", "!", "XXXX", "disease"]
 
 def view_diseases():
-    li = pickle.load(open("pickles/diseases.pkl", "rb"))
+    li = pickle.load(open("data/diseases.pkl", "rb"))
     print(li)
 
 def view_intents():
-    li = pickle.load(open("pickles/classes.pkl", "rb"))
+    li = pickle.load(open("data/classes.pkl", "rb"))
     print(li)
 
 def check_intent(msg):
@@ -17,7 +17,7 @@ def check_intent(msg):
     msg_words = [
         lemmatizer.lemmatize(w.lower()) for w in msg_words if w not in ignore_words
     ]
-    ints = pickle.load(open("pickles/classes.pkl", "rb"))
+    ints = pickle.load(open("data/classes.pkl", "rb"))
     for w in msg_words:
         if w in ints:
             return w
@@ -28,7 +28,7 @@ def check_disease(msg):
     msg_words = [
         lemmatizer.lemmatize(w.lower()) for w in msg_words if w not in ignore_words
     ]
-    dis = pickle.load(open("pickles/diseases.pkl", "rb"))
+    dis = pickle.load(open("data/diseases.pkl", "rb"))
     for w in msg_words:
         if w in dis:
             return w
