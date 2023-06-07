@@ -22,7 +22,7 @@ def check_intent(msg):
         if w in ints:
             return w
     return "none"
-        
+
 def check_disease(msg):
     msg_words = nltk.word_tokenize(msg)
     msg_words = [
@@ -40,4 +40,3 @@ def textPP(text): # returns a list of tokenized, lemmatized, lower cased words f
         lemmatizer.lemmatize(w.lower()) for w in text if w not in ignore_words
     ]
     return words
-
