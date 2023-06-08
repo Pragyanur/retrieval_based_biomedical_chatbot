@@ -1,0 +1,14 @@
+This space consists of the information regarding installation of packages.
+
+Packages used:
+Tensorflow
+spaCy
+nltk
+Keras
+random
+json
+
+Conflicting package dependencies:
+click version conflicts between spacy and flask
+scispacy models compatible with spacy version
+spacy compatible with python version
