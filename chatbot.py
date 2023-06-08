@@ -30,15 +30,15 @@ def predict_disease(msg, prev_disease):
     doc = nlp(msg)
     disease_entitiies = list(ent.text for ent in doc.ents if ent.label_ == "DISEASE")
 
-    if len(disease_entitiies) == 0:  # if no disease name present
+    if len(disease_entitiies) == 0:     # if no disease name present
         return prev_disease
 
     for disease in disease_entitiies:
-        if disease in diseases:  # if disease name present
+        if disease in diseases:         # if disease name present
             prev_disease = disease
             return disease
 
-    prev_disease = "none"  # if all the above fails
+    prev_disease = "none"               # if all the above fails
     return prev_disease
 
 
