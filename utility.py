@@ -1,4 +1,5 @@
 import pickle
+import spacy
 import nltk
 from nltk import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
@@ -40,3 +41,9 @@ def textPP(text): # returns a list of tokenized, lemmatized, lower cased words f
         lemmatizer.lemmatize(w.lower()) for w in text if w not in ignore_words
     ]
     return words
+
+def predict_spacy(text):
+    nlp = spacy.load("en_ner_bc5cdr_md")
+    doc = nlp(text)
+    entities = [(ent.text, ent.label_) for ent in doc.ents]
+    print(entities)
