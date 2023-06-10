@@ -14,22 +14,28 @@ class useful:                                   # static class implemented in or
     def return_disease(self):
         return self.disease
 
+def intro():
+    chat_display.insert(tk.END, "You can search for causes, complications, current research, diagnosis, epidemiology, prevention, prognosis, risk factors, symptoms or treatment of any of the following diseases:\n\n")
+    diseases = list(u.view_diseases())
+    chat_display.insert(tk.END, diseases)
+    chat_display.insert(tk.END, "\n\n\nHow to use:\nTo start a conversation, enter your query in the text-box below and hit 'SEND'\nTo clear the conversation session, hit the 'RESET' button\n\n\n")
 
 
 def send_message():
     previous_disease = useful.return_disease(useful)
     message = input_text.get("1.0", tk.END).strip()
     if message:
-        chat_display.insert(tk.END, "User: " + message + "\n")
+        chat_display.insert(tk.END, "User: " + message + "\n\n")
         curr_d = predict_disease(message, previous_disease)
         useful.update_disease(useful, curr_d)
         response = bot_response(message, curr_d)
-        chat_display.insert(tk.END, "Chatbot: " + response + "\n")
+        chat_display.insert(tk.END, "Bot: " + response + "\n\n")
     input_text.delete("1.0", tk.END)
 
 def clear_conversation():
     useful.update_disease(useful, "none")                   # update the static variable disease to "none"
     chat_display.delete("1.0", tk.END)
+    intro()
 
 
 root = tk.Tk()
@@ -39,10 +45,6 @@ root.title("Bio-medical chatbot")
 # Chat display area
 chat_display = tk.Text(root, height=20, width=50, padx=5, pady=5 )
 chat_display.grid(row=0, column=0, columnspan=2, padx=5, pady=5)
-chat_display.insert(tk.END, "You can search for causes, complications, current research, diagnosis, epidemiology, prevention, prognosis, risk factors, symptoms or treatment of any of the following diseases:\n\n")
-diseases = list(u.view_diseases())
-chat_display.insert(tk.END, diseases)
-chat_display.insert(tk.END, "\n\n\nHow to use:\nTo start a conversation, enter your query in the text-box below and hit 'SEND'\nTo clear the conversation session, hit the 'RESET' button")
 
 # Input text area
 input_text = tk.Text(root, height=3, width=50, padx=5, pady=5)

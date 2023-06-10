@@ -221,6 +221,7 @@
         {
             "tag": "none",
             "patterns": [
+                "?",
                 "can you cure my illness",
                 "I do not understand",
                 "how else can you help me",
