@@ -7,7 +7,8 @@ ignore_words = ["?", "!", "XXXX", "disease"]
 
 def view_diseases():
     li = pickle.load(open("data/diseases.pkl", "rb"))
-    print(li)
+    diseases = list(i for i in li if i != "none")
+    return diseases
 
 def view_intents():
     li = pickle.load(open("data/classes.pkl", "rb"))
@@ -47,3 +48,4 @@ def predict_spacy(text):
     doc = nlp(text)
     entities = [(ent.text, ent.label_) for ent in doc.ents]
     print(entities)
+
