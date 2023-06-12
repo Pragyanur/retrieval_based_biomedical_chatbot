@@ -45,9 +45,7 @@ def predict_disease(msg, prev_disease):
 # print(diseases, predict_disease("hello lung cancer", "none"))
 
 
-def bot_response(
-    msg, disease
-):  # use this function to retrieve response for the user_input
+def bot_response(msg, disease):  # use this function to retrieve response for the user_input
     retrieved_res = "Sorry! I don't understand"  # default if all else fails
 
     msg_words = nltk.word_tokenize(msg)
@@ -107,10 +105,13 @@ def chat():
     print(
         'Bot: "You can search for causes, complications, current research, \n\tdiagnosis, epidemiology, prevention, prognosis, risk factors, \n\tsymptoms or treatment of any of the following diseases:"'
     )
-    u.view_diseases()
+    print(u.view_diseases())
     while True:
         msg = str(input("User: "))
         if msg.lower() == "exit" or msg.lower() == "quit":
             exit()
         disease = predict_disease(msg, disease)  # predict disease
         print("Bot: ", bot_response(msg, disease), "\n")  # pass it to response function
+
+
+# chat()
