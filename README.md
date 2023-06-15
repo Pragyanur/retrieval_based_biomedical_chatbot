@@ -8,6 +8,7 @@ Retrieval based biomedical chatbot to answer know bouts of various diseases
 - NLTK for tokenization, lemmatization, and lowercasing words
 - pickle files to store lists of data
 
+
 ## PROCESS
 ### Part I
 - From patterns in *intents.json* create **bag of words** after text pre-processing
@@ -19,11 +20,15 @@ Retrieval based biomedical chatbot to answer know bouts of various diseases
 - Keras **sequential()** (128 relu, 64 relu, output_row softmax) with **SGD** as the optimizer is created
 - Model is compiled with 'categorical cross entropy' as the loss function, 1000 epochs in batch of 5
 - *intent_classification.h5* saves the trained model
+
 ### Part II
 - In 'chatbot.py' firstly, *text input* from the user is pre-processed and turned into a binary list as **bag of words**
 - Model 'intent_classification.h5' is used to predict the **class** with probability over a **error_threshold**
-- 'en_core_sci_sm' spaCy model and the list in *diseases.pkl* is used to classify **disease** from the *text input*
+- 'en_ner_bc5dm_sm' spaCy model and the list in *diseases.pkl* is used to classify **disease** from the *text input*
 - **class** and **disease** are then used to retrieve response from *responses.json*
+
 ### Part III
-- Webpage consisting of input field, send button and a conversation div is created
-- Input text is sent to *chatbot.py* and it sends back *bot response*
+- GUI development using tkinter that contains: *input_text* area, SEND button, RESET button, and conversation display
+- The application starts with the information about its capabilities and the "how to use" manual
+- input_text is sent to *chatbot.py* when SEND is clicked and a *bot_response* is generated on the display along with the
+- The
