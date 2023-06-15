@@ -30,5 +30,5 @@ Retrieval based biomedical chatbot to answer know bouts of various diseases
 ### Part III
 - GUI development using tkinter that contains: *input_text* area, SEND button, RESET button, and conversation display
 - The application starts with the information about its capabilities and the "how to use" manual
-- input_text is sent to *chatbot.py* when SEND is clicked and a *bot_response* is generated on the display along with the
-- The
+- input_text is sent to *chatbot.py* when SEND is clicked and a *bot_response* is generated on the display along with the *user_input*
+- The RESET button deletes history and clears the conversation
