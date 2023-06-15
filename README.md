@@ -24,7 +24,7 @@ Retrieval based biomedical chatbot to answer know bouts of various diseases
 ### Part II
 - In 'chatbot.py' firstly, *text input* from the user is pre-processed and turned into a binary list as **bag of words**
 - Model 'intent_classification.h5' is used to predict the **class** with probability over a **error_threshold**
-- 'en_ner_bc5dm_sm' spaCy model and the list in *diseases.pkl* is used to classify **disease** from the *text input*
+- 'en_ner_bc5cdr_sm' spaCy model and the list in *diseases.pkl* is used to classify **disease** from the *text input*
 - **class** and **disease** are then used to retrieve response from *responses.json*
 
 ### Part III
