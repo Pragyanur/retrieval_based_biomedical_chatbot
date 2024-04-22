@@ -1,6 +1,7 @@
 import pickle
 import spacy
 import nltk
+import json
 from nltk import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 ignore_words = ["?", "!", "XXXX", "disease"]
@@ -49,3 +50,19 @@ def predict_spacy(text):
     entities = [(ent.text, ent.label_) for ent in doc.ents]
     print(entities)
 
+# training 2
+
+def openJSON(url):
+    file = open(url, "r", encoding="utf-8")
+    data = json.load(file)
+    return data
+
+def readPickle(url):
+    file = open(url, "rb")
+    data = pickle.load(file)
+    return data
+
+def writePickle(url, data):
+    file = open(url, "wb")
+    pickle.dump(data, file)
+    print(data, "\n\nwritten to ", url)

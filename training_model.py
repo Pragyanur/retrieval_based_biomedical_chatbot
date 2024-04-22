@@ -19,6 +19,7 @@ ignore_words = ["?", "!", "XXXX", "disease"]
 
 file = open("data/responses.json", "r", encoding="UTF-8")
 data = json.load(file)
+file.close()
 
 for disease in data["responses"]:
     d = disease["tag"]
@@ -27,6 +28,7 @@ for disease in data["responses"]:
 
 file = open("data/intents.json", "r", encoding="UTF-8")
 intents = json.load(file)
+file.close()
 
 for intent in intents["intents"]:
     for pattern in intent["patterns"]:
