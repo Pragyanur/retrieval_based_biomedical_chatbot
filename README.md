@@ -2,7 +2,7 @@
 
 Retrieval based biomedical chatbot to answer know bouts of various diseases
 
-!["Flowchart"]("chatbot flowchat.drawio.png")
+!["Flowchart"](chatbot flowchat.drawio.png)
 
 ## TECHNOLOGIES USED
 - Keras three layers sequential model to classify the type of fact related to a disease
